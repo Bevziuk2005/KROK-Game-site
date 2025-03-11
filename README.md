@@ -11,7 +11,7 @@
 
 ### Посилання:
 - **Figma:** [KROK-Game-Squad Design](https://www.figma.com/design/nlaPm1hiJnFQfS5axMWOCM/KROK-Game-Squad?node-id=0-1&t=WsPWhu8PjJ7uHv2I-1)
-- **Сайт який рендериться, щоб швидко можна було побачити результат:** [сайт](https://krok-game-site.onrender.com/)
+- [сайт](https://krok-game-site.onrender.com/)
 
 ### Дедлайни:
 - **10-16 березня**: Основна частина HTML та розробка структури проекту.
