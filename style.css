@@ -1,0 +1,111 @@
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section1, .footer-section2, .footer-section3, .footer-section4 {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: auto;
+}
+
+.footer-section1 p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-section2 ul, 
+.footer-section3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section2 ul li, 
+.footer-section3 ul li {
+    margin: 5px 0;
+}
+
+.footer-section2 ul li a, 
+.footer-section3 ul li a {
+    color: #bbbbbb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section2 ul li a:hover, 
+.footer-section3 ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-section4 p {
+    margin: 5px 0;
+}
+
+.footer-section4 a {
+    color: #00aced;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-section4 a:hover {
+    text-decoration: underline;
+}
+
+.discord-button {
+    display: flex;
+    align-items: center;
+    background-color: #5865F2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.discord-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#copywrite {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+    font-size: 14px;
+}
+
+#copywrite a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+#copywrite a:hover {
+    color: white;
+}
