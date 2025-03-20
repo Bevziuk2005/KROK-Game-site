@@ -19,14 +19,14 @@
 - **24-30 березня**: Зустріч, щодо продуктивності. Завершення HTML, закінчення з navbar, footer та адаптація до них. А також повне виконання 2 сторінок.
 
 ### Наповнення сторінок:
-**Бевзюк**:
+-- **Бевзюк**:
 - 404.html
 - about.html
 - tournaments.html
 - tournaments_cs2_2024.html
 - tournaments_dota2_2024.html
 - tournaments_lol_2024.html
-**Чернявський**:
+-- **Чернявський**:
 - comands.html
 - comands_cs2.html
 - comands_dota2.html
