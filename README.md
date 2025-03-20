@@ -18,3 +18,18 @@
 - **17-23 березня**: Наповнення сторінок матеріалом, створення CSS структури для navbar та footer. ✅
 - **24-30 березня**: Зустріч, щодо продуктивності. Завершення HTML, закінчення з navbar, footer та адаптація до них. А також повне виконання 2 сторінок.
 
+### Наповнення сторінок:
+**Бевзюк**:
+- 404.html
+- about.html
+- tournaments.html
+- tournaments_cs2_2024.html
+- tournaments_dota2_2024.html
+- tournaments_lol_2024.html
+**Чернявський**:
+- comands.html
+- comands_cs2.html
+- comands_dota2.html
+- news1.html
+- news_and_events.html
+- site_map.html
