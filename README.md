@@ -26,7 +26,8 @@
 - tournaments_cs2_2024.html
 - tournaments_dota2_2024.html
 - tournaments_lol_2024.html
-####**Чернявський**:
+
+#### **Чернявський**:
 - comands.html
 - comands_cs2.html
 - comands_dota2.html
