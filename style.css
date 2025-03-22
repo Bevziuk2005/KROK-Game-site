@@ -1,3 +1,4 @@
+/* -----ФУТЕР----- */
 footer {
     background-color: #1a1a1a;
     color: #ffffff;
@@ -108,4 +109,80 @@ h3 {
 
 #copywrite a:hover {
     color: white;
+}
+
+/* -----НАВБАР----- */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+}
+
+#nav1_img img {
+    width: 120px; 
+    height: auto;
+}
+
+.nav1_r {
+    background-color: #03254E;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav1_r:hover {
+    background-color: #45a049;
+}
+
+nav button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+nav button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav2_r {
+    background-color: #333;
+}
+
+.nav2_r:hover {
+    background-color: #555;
+}
+
+.nav2_l {
+    background-color: #333;
+}
+
+.nav2_l:hover {
+    background-color: #555;
+}
+
+.nav2_c {
+    background-color: #333;
+}
+
+.nav2_c:hover {
+    background-color: #555;
 }
