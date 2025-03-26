@@ -1,9 +1,82 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .nav-list{
+        display: none;
+    }
+    .nav-item{
+        display: none;
+    }
+
+
+    .nav-settings-container{
+          display: none;
+    }
+    .nav-letters-mode{
+             display: none;
+    }
+    .nav-theme{
+             display: none;
+    }
+
+    .stats {
+        flex-wrap: wrap;  
+        justify-content: space-around; 
+
+    }
+
+    .stats-li {
+        width: 45%; 
+    }
+    
+ }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   .nav-settings-container{
+         display: none;
+   }
+   .nav-letters-mode{
+            display: none;
+   }
+   .nav-theme{
+            display: none;
+   }
+
+   .modal-nav-item{
+            display: none;
+   }
+   .modal-nav-theme{
+            display: block;
+            margin: 0 auto;
+   }
+   .stats-li {
+    width: auto;
+}
+
+}
+
+@media (min-width: 1024px){
+    .burger-icon{
+        display: none;
+    }
+ 
+ }
+
+
+  
+
+
+
+body{
+    margin: 0;
+    background-color: #04112B;
+}
+
 /* -----ФУТЕР----- */
 footer {
     background-color: #1a1a1a;
     color: #ffffff;
     padding: 20px 0;
     font-family: Arial, sans-serif;
+    margin-top: 20px;
 }
 
 .footer-container {
@@ -115,29 +188,27 @@ h3 {
 
 nav {
     display: flex;
+    width: 100%;
     align-items: center;
-    justify-content: space-between;
-    background-color: #1a1a1a;
-    padding: 10px 20px;
+    justify-content: center;
+    background-color: #04112B;
 }
 
-#nav1_img img {
-    width: 120px; 
-    height: auto;
-}
 
-.nav1_r {
-    background-color: #03254E;
+
+.nav-letters-mode {
+    background-color: #1D4289;
     border: none;
     color: white;
-    padding: 10px 20px;
+    
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
+    margin-bottom: 40px;
 }
 
-.nav1_r:hover {
+.nav-letters-mode:hover {
     background-color: #45a049;
 }
 
@@ -145,7 +216,8 @@ nav button {
     background-color: #333;
     color: white;
     border: none;
-    padding: 10px 20px;
+    height: 50px;
+    padding: 0 20px;
     margin: 0 5px;
     font-size: 16px;
     cursor: pointer;
@@ -163,8 +235,11 @@ nav button a {
     font-weight: bold;
 }
 
-.nav2_r {
-    background-color: #333;
+.nav-theme {
+    background-color: #1D4289;
+    height: 50px;
+    max-width: 155px;
+    margin-left: 130px;
 }
 
 .nav2_r:hover {
@@ -179,10 +254,282 @@ nav button a {
     background-color: #555;
 }
 
-.nav2_c {
-    background-color: #333;
+.nav-button {
+    background-color: #1D4289;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
 }
 
 .nav2_c:hover {
     background-color: #555;
+}
+
+
+.title-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #1D4289;
+    color: white;
+}
+
+.nav-logo {
+    height: 80px;
+    width: 220px;
+}
+
+.nav-logo-kgs{
+    width: 80px;
+    height: 80px;
+}
+
+.nav-logo-container{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+
+.nav-container-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-settings-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* -----БУРГЕР МЕНЮ----- */
+
+
+  .burger-icon {
+    display: block;
+    background-color: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    z-index: 10;
+  }
+  .burger-icon:hover{
+    background-color: none;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 8px;
+
+    max-width: 400px;
+}
+
+.modal-nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+
+.modal-nav-item {
+    margin: 5px 0;
+}
+
+.nav-button {
+    background-color: #1D4289;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.burger-icon {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.burger-icon span {
+    height: 5px;
+    background-color: #333;
+    border-radius: 5px;
+}
+ 
+.modal-nav-theme{
+
+    background-color: #1D4289;
+    height: 50px;
+    max-width: 155px;
+}
+
+.modal-nav-letters-mode{
+    background-color: #1D4289;
+    border: none;
+    color: white;
+    
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+}
+
+
+/* -----НОВИНА----- */
+.news-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.news-image{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.news-title-container{
+    position: absolute;
+    background-color: rgba(4, 17, 43, 0.7);
+    color: white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.news-text-container-second{
+    margin-top: -70px;
+    background-color: rgba(4, 17, 43, 0.7);
+    color: white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+/* -----СТАТИСТИКА----- */
+
+.stats-section {
+    background-color: #04112BB2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .stats {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Osvlad', sans-serif;
+  }
+  
+
+  
+  .stats-li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .stats .label {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .stats .value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: auto;
+    padding: 5px 10px;
+  }
+  
+
+/* -----КОМАНДИ----- */
+.comands-title{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #1D4289;
+    color: white;
+}
+
+.index_comands{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.command-container{
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.command-background-image{
+    width: 100%;
+    height: 100%;
+}
+
+.command-button{
+    background-color: #BB4E01;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    text-wrap: nowrap;
+}
+
+.game-logo{
+    width: 120px;
+    height: 120px;
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:   relative;
+    right: 240px;
 }
