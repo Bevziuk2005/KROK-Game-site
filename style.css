@@ -65,14 +65,14 @@
 
 
 
-body{
+body {
     margin: 0;
     background-color: #04112B;
 }
 
 /* -----ФУТЕР----- */
 footer {
-    background-color: #1a1a1a;
+    background-color: #1D4289;
     color: #ffffff;
     padding: 20px 0;
     font-family: Arial, sans-serif;
@@ -191,7 +191,7 @@ nav {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: #04112B;
+    background-color: #1D4289;
 }
 
 
