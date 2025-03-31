@@ -1,0 +1,63 @@
+/* -----Бевзюк----- */
+.about_logo_article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.about_logo_image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+nav {
+    background-color: #04112B;
+}
+
+.about_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1D4289;
+    border-radius: 35px;
+    padding: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    max-width: 1060px;
+    min-width: 790px;
+    width: 100%;
+    gap: 20px;
+    margin: 20px auto;
+    height: auto;
+}
+
+.about_me_text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+#about_me_img, #about_thank_img {
+    width: 430px;
+    height: 430px;
+    min-width: 430px;
+    max-width: 430px;
+    min-height: 430px;
+    max-height: 430px;
+    object-fit: contain;
+    border-radius: 15px;
+    background-color: #04112B;
+
+}
+
+#about_authors_img {
+    width: 430px;
+    height: 430px;
+    min-width: 430px;
+    max-height: 430px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
