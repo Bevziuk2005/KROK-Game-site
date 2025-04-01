@@ -1,57 +1,4 @@
 /* -----Бевзюк----- */
-/*
-h2 {
-    text-align: center;
-    font-size: 24px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-}
-
-
-ul {
-    padding-left: 0;
-    margin-top: 10px;
-    list-style-type: disc; }/* додає стандартні точки списку */
-/*
-li {
-    font-family: Calibri, sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.1;
-    text-transform: uppercase;
-    vertical-align: middle;
-    letter-spacing: 0;
-    margin-left: 20px;
-    padding-left: 0;
-}
-
-li::before {
-    content: "•";
-    color: #00AEEF;
-    font-size: 18px;
-    position: absolute;
-    left: -20px;
-    top: 0;
-}
-strong {
-    font-family: Calibri, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    text-transform: uppercase; 
-    line-height: 1.1;
-    letter-spacing: 0%;
-    vertical-align: middle;
-    padding-left: 10px;
-    margin-left: 10px;
-}
-
-br {
-    display: block;
-    content: "";
-    margin: 0;
-    padding: 0;
-}
-*/
 
 /* -----лого фото на початку----- */
 .about_logo_article {
@@ -97,13 +44,8 @@ br {
     text-align: center;
 }
 
-/* -----меню має мати другий колір----- */
-nav {
-    background-color: #04112B;
-}
-
 /* -----блоки з інформацією----- */
-.about_part {
+.about_part_1, .about_part_2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,45 +62,46 @@ nav {
     margin: 5px auto;
 }
 
-/* -----тексти до блоків----- */
-.about_me_text, .about_authors_text, .about_thank_text {
+.about_part_3 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D4289;
     width: 100%;
-    min-width: 430px;
-    max-width: 570px;
     height: auto;
-    min-height: 430px;
-    gap: 620px;
-}
-
-.about_me_text:h2, .about_authors_text:h2, .about_thank_text:h2 {
-    display: flex;
-    justify-content: center; /* Горизонтальне вирівнювання по центру */
-    align-items: center; /* Вертикальне вирівнювання по центру */
-    width: 100%;
-    min-width: 370px;
-    max-width: 570px;
-    height: 60px;
-    background-color: transparent; /* Якщо потрібен фон, можна змінити */
+    min-width: 790px;
+    max-width: 1060px;
+    border-radius: 35px;
+    padding: 20px;
+    gap: 20px;
+    color: white;
     font-family: Calibri, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase; /* Всі літери великі */
+    margin: 5px auto;
     text-align: center;
 }
 
+/* -----тексти до блоків----- */
+
+u, u:hover, u:focus, u:active {
+    color: white;
+  }
+
 .about_thank_text {
-    font-family: Calibri;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     font-weight: 700;
     font-size: 18px;
     line-height: 140%;
-    text-indent: 10px;
-    letter-spacing: 0%;
-    text-align: center;
-    vertical-align: middle;
     text-transform: uppercase;
+    width: 100%;
 }
+
+
+
+
 /* -----фото з блоків----- */
 #about_me_img, #about_thank_img {
     width: 430px;
