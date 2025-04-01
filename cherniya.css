@@ -1,0 +1,57 @@
+/* -----чернявський----- */
+
+/* -----бекграунди----- */
+.error_page {
+    background-image: url('Images/404.webp');
+    background-size: cover; /* Зображення покриває весь екран */
+    background-position: center; /* Центрує фон */
+}
+
+.map_page {
+    background-image: url('Images/site_map.webp'); /* Вказуємо шлях до зображення */
+    background-position: center; /* Вирівнювання зображення по центру */
+}
+
+/* -----назва сторінки----- */
+.site_title {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #2a4c8b;
+    color: white;
+}
+
+/* -----мапа сайту----- */
+.site_map {
+    background-color: #1D4289; /* Колір фону */
+    padding: 30px; 
+    border-radius: 10px;
+    margin: 50px auto; /* Вирівнювання по центру */
+    width: 50%; /* Ширина блоку */
+    h2 {
+        text-align: center;
+        color: #ecf0f1;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    h3 {
+        text-align: center;
+        color: #ecf0f1;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    p {
+        line-height: 1.6;
+        color: #ecf0f1;
+        text-align: left;
+        margin: 0;
+        br {
+            line-height: 1.6;
+        }
+    }
+    
+}
+
+
+
+

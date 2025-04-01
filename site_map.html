@@ -4,51 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cherniya.css">
     <script src="script.js"></script>
     <title>Карта сайту</title>
-    <style>
-        body {
-          background-image: url('Images/site_map.webp'); /* Вказуємо шлях до зображення */
-          background-size: cover; /* Зображення покриває весь екран */
-          background-position: center; /* Вирівнювання зображення по центру */
-        }
-      </style>
+    
 </head>
-<body>
+<body class="map_page">
     <!-- МЕНЮ -->
-    <div id="quote"><h3><b>«Не думкам треба вчити, а думати» - Іммануїл Кант<b></h3></div>
     <header>
+        <div id="blue_back" class="title-nav"><h3><b>«Не думкам треба вчити, а думати» - Іммануїл Кант<b></h3></div>
         <nav>
 
-            <a href="index.html" id="nav1_img" ><img src="" alt="Logo" class="nav_l"></a>
-            <button class="nav1_r">ЛЮДЯМ З ПОРУШЕННЯМ ЗОРУ</button>
+            <div class="nav-container-main">
+                <div class="nav-logo-container">
+                    <a href="index.html">
+                        <img class="nav-logo" src="images/KROK-logo.svg" alt="KGS Logo" />
+                        <img class="nav-logo-kgs" src="images/KGS-logo.svg" alt="KGS Logo" />
+                    </a>
+                </div>
+                <button class="burger-icon" id="burger-icon">&#9776;</button>
+                
+                
 
-            <button class="nav2_l"><a href="index.html">ГОЛОВНА</a></button>
-            <button class="nav2_c"><a href="news_and_events.html">НОВИНИ</a></button>
-            <button class="nav2_c"><a href="tournaments.html">ТУРНІРИ</a></button>
-            <button class="nav2_c"><a href="comands.html">КОМАНДА</a></button>
-            <button class="nav2_c"><a href="about.html">ПРО НАС</a></button>
-            <button class="nav2_r">ТЕМНА ТЕМА</button>
+                <ul class="nav-list">
+                    <li class="nav-item"><button class="nav-button"><a href="index.html">ГОЛОВНА</a></button></li>
+                    <li class="nav-item"><button class="nav-button"><a href="news_and_events.html">НОВИНИ</a></button></li>
+                    <li class="nav-item"><button class="nav-button"><a href="tournaments.html">ТУРНІРИ</a></button></li>
+                    <li class="nav-item"><button class="nav-button"><a href="comands.html">КОМАНДА</a></button></li>
+                    <li class="nav-item"><button class="nav-button"><a href="about.html">ПРО НАС</a></button></li>
+                </ul>
+            </div>
+            
+            
+            <div class="nav-settings-container">
+                <button class="nav-letters-mode"><img src="Images/icons-sunglasses.webp" alt="" style="margin-right: 10px;">ЗМІНА РОЗМІРУ ТЕКСТУ</button>
+                <button class="nav-theme">СВІТЛА ТЕМА</button>
+            </div>
+            
         </nav>
+        <!-- менюшка не працює, залишаю це на артема, бо я не знаю як це робити 
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <nav class="modal-nav-container" id="navContainer">
+                    <ul class="modal-nav-list">
+                        <li><button class="nav-button"><a href="index.html">ГОЛОВНА</a></button></li>
+                        <li><button class="nav-button"><a href="news_and_events.html">НОВИНИ</a></button></li>
+                        <li><button class="nav-button"><a href="tournaments.html">ТУРНІРИ</a></button></lis=>
+                        <li><button class="nav-button"><a href="comands.html">КОМАНДА</a></button></liclass=>
+                        <li><button class="nav-button"><a href="about.html">ПРО НАС</a></button></li>
+                    </ul>
+                    <div class="modal-nav-settings-container">
+                        <button class="modal-nav-letters-mode">
+                            <img src="Images/icons-sunglasses.webp" alt="" style="margin-right: 10px;">ЗМІНА РОЗМІРУ ТЕКСТУ
+                        </button>
+                        <button class="modal-nav-theme">СВІТЛА ТЕМА</button>
+                    </div>
+                </nav>
+            </div>
+        </div>  -->
     </header>
 
-    <main class="site_map">
+    <div class="site_title"><h3><b>КАРТА САЙТУ<b></h3></div>
+    <div class="site_map">
         <h2>Сторінки доступні на сайті</h2>
+        <h3>У складі проєкту знаходиться:</h3>
         <p>
-            У складі проєкту знаходиться:<br>
-            Головна сторінка<br>
-            Новини та події<br>
-            Новиниа KET 2024 (CS2)<br>
-            Турніри та заходи<br>
-            Турнір KET 2024 CS2<br>
-            Турнір LOL 2024<br>
-            Турнір DOTA2 2024<br>
-            Команди<br>
-            Команда з Counter-Strike 2<br>
-            Команда з DOTA2<br>
-            Про нас<br>
+            • Головна сторінка<br>
+            • Новини та події<br>
+            • Новини KET 2024 (CS2)<br>
+            • Турніри та заходи<br>
+            • Турнір KET 2024 CS2<br>
+            • Турнір LOL 2024<br>
+            • Турнір DOTA2 2024<br>
+            • Команди<br>
+            • Команда з Counter-Strike 2<br>
+            • Команда з DOTA2<br>
+            • Про нас<br>
         </p>
-    </main>
+    </div>
 
     <!-- ФУТЕР + КОПІРАЙТ-->
     <footer>
