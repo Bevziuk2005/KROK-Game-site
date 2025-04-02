@@ -1,0 +1,61 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .comands-title-container{
+        font-size: 10px;
+    }
+
+}
+
+.comands-title-container{
+    position: absolute;
+    background: linear-gradient(90deg, #C1D7FF 30%, #C95140 100%);
+    color: black;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.comands-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.comand-container {
+    background-color: #C1D7FF;
+    border-radius: 20px;
+    padding: 15px;
+    height: 400px; 
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    text-align: center;
+}
+
+.team-image {
+    width: 90%;
+    max-height: 180px; 
+    object-fit: cover; 
+    border-radius: 20px;
+}
+
+.comand-button {
+    border-radius: 15px;
+    background-color: #D64F49;
+    border: none;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+.comand-button > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: block;
+}
