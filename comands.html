@@ -4,58 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="comands.css">
+
     <title>Команди</title>
 </head>
 <body>
     <!-- МЕНЮ -->
-    <div id="quote"><h3><b>З 18 січня по 28 березня 2021 року в Києві відбувся перший Національний Кубок України з кіберспорту<b></h3></div>
-    <header>
-        <nav>
-
-            <a href="index.html" id="nav1_img" ><img src="" alt="Logo" class="nav_l"></a>
-            <button class="nav1_r">ЛЮДЯМ З ПОРУШЕННЯМ ЗОРУ</button>
-
-            <button class="nav2_l"><a href="index.html">ГОЛОВНА</a></button>
-            <button class="nav2_c"><a href="news_and_events.html">НОВИНИ</a></button>
-            <button class="nav2_c"><a href="tournaments.html">ТУРНІРИ</a></button>
-            <button class="nav2_c"><a href="comands.html">КОМАНДА</a></button>
-            <button class="nav2_c"><a href="about.html">ПРО НАС</a></button>
-            <button class="nav2_r">ТЕМНА ТЕМА</button>
-        </nav>
-    </header>
+    <div id="quote" class="title-nav"><h3><b>З 18 січня по 28 березня 2021 року в Києві відбувся перший Національний Кубок України з кіберспорту<b></h3></div>
+        <header>
+            <nav>
+    
+                <div class="nav-container-main">
+                    <div class="nav-logo-container">
+                        <a href="index.html">
+                            <img class="nav-logo" src="images/KROK-logo.svg" alt="KGS Logo" />
+                            <img class="nav-logo-kgs" src="images/KGS-logo.svg" alt="KGS Logo" />
+                        </a>
+                    </div>
+                    <button class="burger-icon" id="burger-icon">&#9776;</button>
+                    
+                    
+    
+                    <ul class="nav-list">
+                        <li class="nav-item"><button class="nav-button"><a href="index.html">ГОЛОВНА</a></button></li>
+                        <li class="nav-item"><button class="nav-button"><a href="news_and_events.html">НОВИНИ</a></button></li>
+                        <li class="nav-item"><button class="nav-button"><a href="tournaments.html">ТУРНІРИ</a></button></li>
+                        <li class="nav-item"><button class="nav-button"><a href="comands.html">КОМАНДА</a></button></li>
+                        <li class="nav-item"><button class="nav-button"><a href="about.html">ПРО НАС</a></button></li>
+                    </ul>
+                </div>
+                
+                
+                <div class="nav-settings-container">
+                    <button class="nav-letters-mode"><img src="Images/icons-sunglasses.webp" alt="" style="margin-right: 10px;">ЗМІНА РОЗМІРУ ТЕКСТУ</button>
+                    <button class="nav-theme">СВІТЛА ТЕМА</button>
+                </div>
+                
+            </nav>
+            
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <nav class="modal-nav-container" id="navContainer">
+                        <ul class="modal-nav-list">
+                            <li><button class="nav-button"><a href="index.html">ГОЛОВНА</a></button></li>
+                            <li><button class="nav-button"><a href="news_and_events.html">НОВИНИ</a></button></li>
+                            <li><button class="nav-button"><a href="tournaments.html">ТУРНІРИ</a></button></lis=>
+                            <li><button class="nav-button"><a href="comands.html">КОМАНДА</a></button></liclass=>
+                            <li><button class="nav-button"><a href="about.html">ПРО НАС</a></button></li>
+                        </ul>
+                        <div class="modal-nav-settings-container">
+                            <button class="modal-nav-letters-mode">
+                                <img src="Images/icons-sunglasses.webp" alt="" style="margin-right: 10px;">ЗМІНА РОЗМІРУ ТЕКСТУ
+                            </button>
+                            <button class="modal-nav-theme">СВІТЛА ТЕМА</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+    
+    
+        </header>
 
     
 
 
     <!-- КОМАНДИ -->
     <div class="comands_headline">
-        <img src="Images/comands_headline.webp" alt="Зображення до заголовка">
-        <h2>РЕЄСТРАЦІЯ НА НАШ НАСТУПНИЙ ТУРНІР З CS2 ВЖЕ ВІДКРИТА!</h2>
+        <img class="news-image" src="Images/comands_headline.webp" alt="Зображення до заголовка">
+        <div class="comands-title-container">
+            <h2>КОМАНДИ «KROK GAME SQUAD»</h2>
+        </div>
     </div>
 
 
-    <ul style="list-style-type:none;" class="comands">
-        <li><div class="container">
-            <img src="Images/dota2_team.webp" alt="Dota2-Team" class="team-image">
-            <h3>Команда з DOTA 2</h3>
-            <p>Команда очікує тебе для вступу. Їй потрібні гравці</p>
-            <button class="nav2_c"><a href="comands_dota2.html">ПЕРЕГЛЯНУТИ СКВАД</a></button>
-        </div></li>
+    <ul class="comands-list">
+        <li>
+            <div class="comand-container">
+                <img src="Images/dota2_team.webp" alt="Dota2-Team" class="team-image">
+                <h3>Команда з DOTA 2</h3>
+                <p>Команда очікує тебе для вступу. Їй потрібні гравці</p>
+                <button class="comand-button"><a href="comands_dota2.html">ПЕРЕГЛЯНУТИ СКВАД</a></button>
+            </div>
+        </li>
 
-        <li><div class="container">
-            <img src="Images/cs2_team.webp" alt="CS2-Team" class="team-image">
-            <h3>Команда з Counter-strike 2</h3>
-            <p>Команда була утворена у вересні 2024 року на початку навчального року.</p>
-            <button class="nav2_c"><a href="comands_cs2.html">ПЕРЕГЛЯНУТИ СКВАД</a></button>
-        </div></li>
+        <li>
+            <div class="comand-container">
+                <img src="Images/cs2_team.webp" alt="CS2-Team" class="team-image">
+                <h3>Команда з Counter-strike 2</h3>
+                <p>Команда була утворена у вересні 2024 року на початку навчального року.</p>
+                <button class="comand-button"><a href="comands_cs2.html">ПЕРЕГЛЯНУТИ СКВАД</a></button>
+            </div>
+        </li>
 
-        <li><div class="container">
-            <img src="Images/lol_team.webp" alt="LOL-Team" class="team-image">
-            <h3>Команда з League of legends</h3>
-            <p>Чекаємо новини.</p>
-            <button class="nav2_c"><a href="404.html">404</a></button>
-        </div></li>
+        <li>
+            <div class="comand-container">
+                <img src="Images/lol_team.webp" alt="LOL-Team" class="team-image">
+                <h3>Команда з League of legends</h3>
+                <p>Чекаємо новини.</p>
+                <button class="comand-button"><a href="404.html">404</a></button>
+            </div>
+        </li>
     </ul>
 
     <!-- ФУТЕР + КОПІРАЙТ-->
@@ -103,5 +152,7 @@
         
         <div id="copywrite"><a target="_blank" rel="noopener noreferrer" href="https://www.krok.edu.ua/ua/pro-krok/pidrozdili/navchalni/navchalno-naukovij-institut-informatsijnikh-ta-komunikatsijnikh-tekhnologij">© 2024 | Кафедра комп’ютерних наук | Навчально-науковий інститут інформаційних та комунікаційних технологій | Університет «КРОК» - Корпорація розвитку освіти та кадрів</a></div>
      </footer>
+
+     <script src="script.js"></script>
 </body>
 </html>
