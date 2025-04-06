@@ -33,10 +33,11 @@
    .nav-settings-container{
          display: none;
    }
-   .nav-letters-mode{
+
+   .nav-theme{
             display: none;
    }
-   .nav-theme{
+   .nav-letters-mode{
             display: none;
    }
 
@@ -54,10 +55,16 @@
 }
 
 @media (min-width: 1024px){
-    .burger-icon{
+    #burger-icon{
         display: none;
     }
- 
+
+    .nav-letters-mode{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
  }
 
 
@@ -196,16 +203,21 @@ nav {
 
 
 .nav-letters-mode {
+
+
+    gap: 8px;
     background-color: #1D4289;
     border: none;
     color: white;
-    
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.3s ease;
     margin-bottom: 40px;
+    padding: 10px 20px;
+    text-align: center;
 }
+
 
 .nav-letters-mode:hover {
     background-color: #45a049;
@@ -224,9 +236,7 @@ nav button {
     transition: background-color 0.3s ease;
 }
 
-nav button:hover {
-    background-color: #555;
-}
+
 
 nav button a {
     text-decoration: none;
@@ -391,6 +401,10 @@ nav button a {
 }
 
 .modal-nav-letters-mode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     background-color: #1D4289;
     border: none;
     color: white;
