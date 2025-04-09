@@ -1,0 +1,7 @@
+.tournaments_foto_logo {
+    h2 {
+        color: white;
+        text-align: center;
+        background: linear-gradient(to left, black, skyblue, black);
+    }
+}
