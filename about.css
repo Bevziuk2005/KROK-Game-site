@@ -1,4 +1,7 @@
 /* -----Бевзюк----- */
+/* -----Семенюк (Адаптація)----- */
+
+
 
 /* -----лого фото на початку----- */
 .about_logo_article {
@@ -17,14 +20,10 @@
 
 .about_article_lines {
     background: linear-gradient(90deg, #04112B 0%, #1D4289 50%, #04112B 100%);
-    max-width: 100vw;
-    height: 60px;
-    min-width: 790px;
-    padding-top: 10px;
-    padding-right: 250px;
-    padding-bottom: 10px;
-    padding-left: 250px;
-    gap: 10px;
+    color: black;
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .about_logo_text {
@@ -50,9 +49,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1D4289;
-    width: 100%;
+
     height: 470px;
-    min-width: 790px;
+
     max-width: 1060px;
     border-radius: 35px;
     padding: 20px;
@@ -67,9 +66,9 @@
     justify-content: center;
     align-items: center;
     background-color: #1D4289;
-    width: 100%;
+
     height: 470px;
-    min-width: 790px;
+
     max-width: 1060px;
     border-radius: 35px;
     padding: 20px;
@@ -86,7 +85,7 @@ u, u:hover, u:focus, u:active {
     color: white;
   }
 
-.about_thank_tex{
+/* .about_thank_tex{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,36 +112,76 @@ u, u:hover, u:focus, u:active {
 .about_authors_text {
     font-family: 'Calibri', sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 100%; /* Мінімальний міжрядковий інтервал */
+
+    line-height: 0.8em;
     text-transform: uppercase;
-    text-indent: 0; /* Прибирає відступ першого рядка */
-    letter-spacing: 0; /* Прибирає розтягнення між літерами */
-  
-    /* Видаляємо всі відступи */
-    margin: 0;
-    padding: 0;
+    text-indent: 0;
+    letter-spacing: 0;
+
 }
+ */
+ .about_me_text, .about_authors_text, .about_thank_tex {
+
+    text-overflow: ellipsis;
+
+    font-size: clamp(14px, 1.5vw, 18px);
+    line-height: 0.8em;
+    max-width: 100%;
+}
+
+
+
+
 
 /* -----фото з блоків----- */
-#about_me_img, #about_thank_img {
-    width: 430px;
-    height: 430px;
-    min-width: 430px;
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about_authors_img {
+        width: 330px;
+        }
+    .about_me_img {
+        width: 330px;
+        }
+    .about_thank_img{
+        width: 330px;
+        
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .about_authors_img {
+        width: 230px;
+
+        }
+    .about_me_img {
+        width: 230px;
+
+        }
+    .about_thank_img{
+        width: 230px;
+
+        
+    }
+}
+
+.about_authors_img {
     max-width: 430px;
-    min-height: 430px;
-    max-height: 430px;
-    object-fit: contain;
-    border-radius: 15px;
-    background-color: #04112B;
+
+
+
+
 
 }
 
-#about_authors_img {
-    width: 430px;
-    height: 430px;
-    min-width: 430px;
-    max-height: 430px;
-    object-fit: contain;
+.about_me_img{
+    max-width: 430px;
+    background-color: #04112B;
+    border-radius: 15px;
+}
+
+.about_thank_img{
+    max-width: 430px;
+
     border-radius: 15px;
 }
