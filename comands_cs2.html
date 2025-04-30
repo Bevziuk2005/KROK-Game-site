@@ -3,77 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cherniya.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
     <title>Команда CS2</title>
 </head>
 <body>
     <!-- МЕНЮ -->
-    <div id="quote"><h3><b>7 вересня відзначають День кіберспорту в Україні Саме в цей день кіберспорт був офіційно визнаний видом спорту в Україні завдяки Федерації Кіберспорту України (UESF)<b></h3></div>
-    <header>
-        <nav>
+    <div id="blue_back" class="title-nav"><h3><b id="quote"><b></h3></div>
+        <header>
+            <nav>
+    
+                <div class="nav-container-main">
+                    <div class="nav-logo-container">
+                        <a href="index.html">
+                            <img class="nav-logo" src="images/KROK-logo.svg" alt="KGS Logo" />
+                            <img class="nav-logo-kgs" src="images/KGS-logo.svg" alt="KGS Logo" />
+                        </a>
+                    </div>
+                    <button class="burger-icon" id="burger-icon">&#9776;</button>
+                    
+                    
+    
+                    <ul class="nav-list">
+                        <li class="nav-item"><button class="nav-button"><a href="index.html">ГОЛОВНА</a></button></li>
+                        <li class="nav-item"><button class="nav-button"><a href="news_and_events.html">НОВИНИ</a></button></li>
+                        <li class="nav-item"><button class="nav-button"><a href="tournaments.html">ТУРНІРИ</a></button></li>
+                        <li class="nav-item"><button class="nav-button"><a href="comands.html">КОМАНДА</a></button></li>
+                        <li class="nav-item"><button class="nav-button"><a href="about.html">ПРО НАС</a></button></li>
+                    </ul>
+                </div>
+                
+                
+                <div class="nav-settings-container">
+                    <button class="nav-letters-mode"><img src="Images/icons-sunglasses.webp" alt="" style="margin-right: 10px;">ЗМІНА РОЗМІРУ ТЕКСТУ</button>
+                    <button class="nav-theme">СВІТЛА ТЕМА</button>
+                </div>
+                
+            </nav>
+            
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <nav class="modal-nav-container" id="navContainer">
+                        <ul class="modal-nav-list">
+                            <li><button class="nav-button"><a href="index.html">ГОЛОВНА</a></button></li>
+                            <li><button class="nav-button"><a href="news_and_events.html">НОВИНИ</a></button></li>
+                            <li><button class="nav-button"><a href="tournaments.html">ТУРНІРИ</a></button></lis=>
+                            <li><button class="nav-button"><a href="comands.html">КОМАНДА</a></button></liclass=>
+                            <li><button class="nav-button"><a href="about.html">ПРО НАС</a></button></li>
+                        </ul>
+                        <div class="modal-nav-settings-container">
+                            <button class="modal-nav-letters-mode">
+                                <img src="Images/icons-sunglasses.webp" alt="" style="margin-right: 10px;">ЗМІНА РОЗМІРУ ТЕКСТУ
+                            </button>
+                            <button class="modal-nav-theme">СВІТЛА ТЕМА</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
 
-            <a href="index.html" id="nav1_img" ><img src="" alt="Logo" class="nav_l"></a>
-            <button class="nav1_r">ЛЮДЯМ З ПОРУШЕННЯМ ЗОРУ</button>
-
-            <button class="nav2_l"><a href="index.html">ГОЛОВНА</a></button>
-            <button class="nav2_c"><a href="news_and_events.html">НОВИНИ</a></button>
-            <button class="nav2_c"><a href="tournaments.html">ТУРНІРИ</a></button>
-            <button class="nav2_c"><a href="comands.html">КОМАНДА</a></button>
-            <button class="nav2_c"><a href="about.html">ПРО НАС</a></button>
-            <button class="nav2_r">ТЕМНА ТЕМА</button>
-        </nav>
-    </header>
 
     <!-- КОМАНДА КС2 КРОКУС -->
-    <div class="cs2comand_headline">
-        <img src="Images/cs2comand_headline.webp" alt="Зображення до заголовка">
-        <div class="cs2_teamtitle"><h3><b>КОМАНДА COUNTER-STRIKE 2<b></h3></div>
+    <article>
+        <div class="comand_headline">
+            <img class="about_logo_image" src="Images/cs2comand_headline.webp" alt="Зображення до заголовка">
+        </div>
+        <div class="article_lines">
+            <div class="article_text">КОМАНДА COUNTER-STRIKE 2</div>
+        </div>
     </div>
+    </article>
+    
 
     <div class="videoclip">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EIsIgfs9coA?si=a8S8fcrLj1uzRoNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <div class="videoclip_background"> <img src="Images/cs2video_back.webp" alt="бек до відео"> </div>
+        <iframe width="720" height="405" src="https://www.youtube.com/embed/EIsIgfs9coA?si=a8S8fcrLj1uzRoNo" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 
-    <div class="cs2_comands">
-        <div class="cs2_team"><h3><b>СКЛАД КОМАНД<b></h3></div>
-        <ul style="list-style-type:none;" class="player_comands">
-        <li><div class="team_member"> 
-            <img src="Images/cs2_member.webp" alt="Командний гравець 1" class="team_member_image">
-            <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
-        </div></li>
-        <li><div class="team_member"> 
-            <img src="Images/cs2_member.webp" alt="Командний гравець 2" class="team_member_image">
-            <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
-        </div></li>
-        <li><div class="team_member"> 
-            <img src="Images/cs2_member.webp" alt="Командний гравець 3" class="team_member_image">
-            <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
-        </div></li>
-        <li><div class="team_member"> 
-            <img src="Images/cs2_member.webp" alt="Командний гравець 4" class="team_member_image">
-            <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
-        </div></li>
-        <li><div class="team_member"> 
-            <img src="Images/cs2_member.webp" alt="Командний гравець 5" class="team_member_image">
-            <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
-        </div></li> </ul>
+    <div class="article_lines">
+        <div class="article_text">СКЛАД КОМАНДИ</div>
+    </div>
+    </article>
+    <div class="comands">
+        <!-- Ставлю заглушку на картинку, бо немає картинок з ідентичною роздільною здатністю -->
+        <div class="team_background"><img src="Images\team_zaglushka.webp"></div>
 
-        <ul style="list-style-type:none;" class="player_comands">
-        <h2>ТРЕНЕРИ / МЕНЕДЖЕРИ / ЗАПАСНІ ГРАВЦІ</h2>
-        <li><div class="team_member"> 
-            <img src="Images/player_apa4i.webp" alt="Командний гравець 6" class="team_member_image">
-            <h3>Михайло «Apa4i» Стрільчук</h3>
-        </div></li>
-        <li><div class="team_member"> 
-            <img src="Images/player_whitewitchalisa.webp" alt="Командний гравець 7" class="team_member_image">
-            <h3>Дмитро «WhiteWitchAlisa» Герасьов</h3>
-        </div></li>
-        <li><div class="team_member"> 
-            <img src="Images/cs2_member.webp" alt="Командний гравець 8" class="team_member_image">
-            <h3>Михайло «mars1k_00» Романов</h3>
-        </div></li>  </ul>
+        <h2>ОСНОВНИЙ СКЛАД</h2>
+      <div class="player_comands">
+        <div class="team_member">
+            <img src="Images/cs2_member.webp" alt="Гравець 1" class="team_member_image">
+            <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
+        </div>
+        <div class="team_member">
+            <img src="Images/cs2_member.webp" alt="Гравець 2" class="team_member_image">
+            <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
+        </div>
+        <div class="team_member">
+            <img src="Images/cs2_member.webp" alt="Гравець 3" class="team_member_image">
+            <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
+        </div>
+    <div class="team_member">
+      <img src="Images/cs2_member.webp" alt="Гравець 4" class="team_member_image">
+      <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
+    </div>
+    <div class="team_member">
+      <img src="Images/cs2_member.webp" alt="Гравець 5" class="team_member_image">
+      <h3>ТУТ МОЖЕШ БУТИ ТИ!</h3>
+    </div>
+    </div>
+
+    <h2>ТРЕНЕРИ / МЕНЕДЖЕРИ / ЗАПАСНІ ГРАВЦІ</h2>
+    <div class="player_comands">
+    <div class="team_member">
+      <img src="Images/player_apa4i.webp" alt="Apa4i" class="team_member_image">
+      <h3>Михайло «Apa4i» Стрільчук</h3>
+    </div>
+    <div class="team_member">
+      <img src="Images/player_whitewitchalisa.webp" alt="WhiteWitchAlisa" class="team_member_image">
+      <h3>Дмитро «WhiteWitchAlisa» Герасьов</h3>
+    </div>
+    <div class="team_member">
+      <img src="Images/cs2_member.webp" alt="mars1k_00" class="team_member_image">
+      <h3>Михайло «mars1k_00» Романов</h3>
+    </div>
+    </div>
         <button class="read_more">ПОДАТИ ЗАЯВКУ</button>
     </div>
 

@@ -13,17 +13,27 @@
 }
 
 /* -----назва сторінки----- */
-.site_title {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    background-color: #2a4c8b;
-    color: white;
+
+.article_text {
+  font-family: Calibri, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
 }
 
 /* -----мапа сайту----- */
 .site_map {
-    background-color: #1D4289; /* Колір фону */
+    background-color: #1a3872; /* Колір фону */
     padding: 30px; 
     border-radius: 10px;
     margin: 50px auto; /* Вирівнювання по центру */
@@ -51,6 +61,115 @@
     }
     
 }
+
+/* -----команди----- */
+.comand_headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+.comand_headline img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+.article_lines {
+  background: linear-gradient(90deg, #04112B 0%, #1D4289 50%, #04112B 100%);
+  color: black;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+
+.team_background {
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+}
+
+.team_background img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.comands {
+  width: 100%;
+  max-width: 960px;
+  margin: 5px auto;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1D4289;
+  border-radius: 35px;
+
+  color: white;
+  font-family: Calibri, sans-serif;
+  min-height: 100vh;
+}
+
+.player_comands {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.team_member {
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.team_member:hover {
+  transform: scale(1.05);
+}
+
+.team_member_image {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 12px;
+  margin-bottom: 0;
+}
+.team_member h3 {
+  margin-top: 0.2rem;
+}
+
+.read_more {
+  background-color: #ff7300;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.read_more:hover {
+  background-color: #ff9100;
+}
+
+.videoclip {
+  display: flex;
+  justify-content: center; /* горизонталь */
+  align-items: center;     /* вертикаль */    
+}
+
 
 
 
