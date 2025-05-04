@@ -269,7 +269,7 @@ nav button a {
 }
 
 .nav-button:hover {
-    background-color: #45a049;
+    background-color: #573fc4;
     transition-timing-function: cubic-bezier(0.7, 0, 0.2, 1);
 }
 
