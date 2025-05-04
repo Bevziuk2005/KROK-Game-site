@@ -249,6 +249,10 @@ nav button a {
     margin-left: 130px;
 }
 
+.nav-theme:hover {
+    background-color: #573fc4;
+}
+
 .nav2_r:hover {
     background-color: #555;
 }
