@@ -60,8 +60,13 @@
 </details>
 
 <details>
-  <summary>28 квітня - 4 травня ⏳</summary>
+  <summary>28 квітня - 4 травня ✅ </summary>
   Дороблюємо сторінки по наповнення. Адаптуємо сторінки паралельно з об'єднанням їх в основному css-файлі.
+</details>
+
+<details>
+  <summary>5 - 11 травня ⏳</summary>
+  Завершення з CSS та аналіз Wordpress можливостей. Активна робота над аналізом.
 </details>
 
 ---
@@ -78,8 +83,6 @@
 - about.html
 - tournaments.html
 - tournaments_cs2_2024.html
-- tournaments_dota2_2024.html
-- tournaments_lol_2024.html
 
 </details>
 
@@ -89,7 +92,6 @@
 - index.html
 - comands.html
 - comands_cs2.html
-- comands_dota2.html
 - news1.html
 - news_and_events.html
 - site_map.html
@@ -113,8 +115,8 @@
 <details>
   <summary><b>Семенюк</b></summary>
 
-- index.html
-- comands.html
+- index.html✅
+- comands.html✅
 
 </details>
 
@@ -129,10 +131,9 @@
 <details>
   <summary><b>Чернявський</b></summary>
 
-- 404.html
-- site_map.html
+- 404.html✅
+- site_map.html✅
 - comands_cs2.html
-- comands_dota2.html
 
 </details>
 
