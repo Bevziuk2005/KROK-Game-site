@@ -2,6 +2,29 @@
     h2 {
         color: white;
         text-align: center;
-        background: linear-gradient(to left, black, skyblue, black);
+        background: linear-gradient(to left, #04112B, skyblue, #04112B);
+        height: 40px;
+        padding-top: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
+}
+
+.tournaments_date {
+    color: white;
+    font-size: 25px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 300px;
+}
+
+.tournaments_event {
+    padding-left: 300px;
+}
+
+.tournaments_event_text {
+    color: white;
+    padding-left: 0px;
+
 }
