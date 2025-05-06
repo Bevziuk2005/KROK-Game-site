@@ -51,8 +51,6 @@
     align-items: center;
     background-color: #1D4289;
 
-
-
     max-width: 1060px;
     border-radius: 35px;
     padding: 20px;
@@ -82,46 +80,7 @@
 
 /* -----тексти до блоків----- */
 
-u, u:hover, u:focus, u:active {
-    color: white;
-  }
-
-/* .about_thank_tex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    line-height: 140%;
-    text-transform: uppercase;
-    width: 100%;
-}
-
-.about_me_text {
-    text-transform: uppercase;
-    font-family: 'Calibri', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 110%;
-    
-    text-indent: 10px;
-    vertical-align: middle;
-    letter-spacing: 0;
-}
-  
-
-.about_authors_text {
-    font-family: 'Calibri', sans-serif;
-    font-weight: 700;
-
-    line-height: 0.8em;
-    text-transform: uppercase;
-    text-indent: 0;
-    letter-spacing: 0;
-
-}
- */
- .about_me_text, .about_authors_text, .about_thank_tex {
+.about_me_text, .about_authors_text, .about_thank_text {
 
     text-overflow: ellipsis;
 
@@ -130,11 +89,56 @@ u, u:hover, u:focus, u:active {
     max-width: 100%;
 }
 
+u, u:hover, u:focus, u:active {
+    color: white;
+}
+
+
+/* -----текст 1 блоку----- */
+#about_me_text li, #about_me_text br {
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+}
+#about_me_text strong {
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#about_me_text > h2 {
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+}
 
 
 
 
-/* -----фото з блоків----- */
+
+
+
+/* -----вирівнення списків----- */
+#about_me_text ul {
+    margin-top: 0;
+    padding-left: 0; 
+    margin-left: 15px; 
+    list-style: disc;
+}
+
+#about_me_text ul > li {
+    margin-left: 0;
+}
+
+#about_me_text ul ul {
+    padding-left: 15px; 
+}
+
+/* -----АДАПТАЦІЯ----- */
 
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -203,11 +207,6 @@ u, u:hover, u:focus, u:active {
 
 .about_authors_img {
     max-width: 430px;
-
-
-
-
-
 }
 
 .about_me_img{

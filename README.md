@@ -133,7 +133,7 @@
 
 - 404.html✅
 - site_map.html✅
-- comands_cs2.html
+- comands_cs2.html✅
 
 </details>
 
