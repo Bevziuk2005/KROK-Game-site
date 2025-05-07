@@ -1,9 +1,6 @@
 /* -----Бевзюк----- */
 /* -----Семенюк (Адаптація)----- */
 
-
-
-
 /* -----лого фото на початку----- */
 .about_logo_article {
     display: flex;
@@ -48,7 +45,7 @@
 .about_part_1, .about_part_2 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     background-color: #1D4289;
 
     max-width: 1060px;
@@ -81,11 +78,10 @@
 /* -----тексти до блоків----- */
 
 .about_me_text, .about_authors_text, .about_thank_text {
-
     text-overflow: ellipsis;
 
     font-size: clamp(14px, 1.5vw, 18px);
-    line-height: 0.8em;
+    line-height: 1.4em;
     max-width: 100%;
 }
 
@@ -117,13 +113,49 @@ u, u:hover, u:focus, u:active {
 }
 
 
+/* -----текст 2 блоку----- */
+
+#about_authors_text > h2 {
+    text-align: center;
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+#about_authors_text strong {
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#about_authors_text li, #about_authors_text p {
+    font-family: Calibri, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.about_authors_text h3,
+.about_authors_text p,
+.about_authors_text ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.about_authors_text h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
 
 
 
 
 
 /* -----вирівнення списків----- */
-#about_me_text ul {
+#about_me_text ul{
     margin-top: 0;
     padding-left: 0; 
     margin-left: 15px; 
@@ -138,8 +170,8 @@ u, u:hover, u:focus, u:active {
     padding-left: 15px; 
 }
 
-/* -----АДАПТАЦІЯ----- */
 
+/* -----АДАПТАЦІЯ----- */
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .about_authors_img {
