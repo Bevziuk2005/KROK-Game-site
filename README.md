@@ -123,7 +123,7 @@
 <details>
   <summary><b>Бевзюк</b></summary>
 
-- about.html
+- about.html ✅
 - tournaments_cs2_2024.html (макет для WordPress)
 
 </details>

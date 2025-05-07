@@ -81,7 +81,7 @@
     text-overflow: ellipsis;
 
     font-size: clamp(14px, 1.5vw, 18px);
-    line-height: 1.4em;
+    line-height: 1.2em;
     max-width: 100%;
 }
 
@@ -115,7 +115,7 @@ u, u:hover, u:focus, u:active {
 
 /* -----текст 2 блоку----- */
 
-#about_authors_text > h2 {
+.about_authors_text > h2 {
     text-align: center;
     font-family: Calibri, sans-serif;
     font-weight: 700;
@@ -125,14 +125,14 @@ u, u:hover, u:focus, u:active {
     margin-bottom: 0;
 }
 
-#about_authors_text strong {
+.about_authors_text strong {
     font-family: Calibri, sans-serif;
     font-weight: 700;
     font-size: 20px;
     font-style: normal;
 }
 
-#about_authors_text li, #about_authors_text p {
+.about_authors_text li, .about_authors_text p {
     font-family: Calibri, sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -151,9 +151,6 @@ u, u:hover, u:focus, u:active {
 }
 
 
-
-
-
 /* -----вирівнення списків----- */
 #about_me_text ul{
     margin-top: 0;
@@ -170,6 +167,20 @@ u, u:hover, u:focus, u:active {
     padding-left: 15px; 
 }
 
+.about_authors_text ul{
+    margin-top: 0;
+    padding-left: 0; 
+    margin-left: 15px; 
+    list-style: disc;
+}
+
+.about_authors_text ul > li {
+    margin-left: 0;
+}
+
+.about_authors_text ul ul {
+    padding-left: 15px; 
+}
 
 /* -----АДАПТАЦІЯ----- */
 
