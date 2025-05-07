@@ -124,7 +124,7 @@
   <summary><b>Бевзюк</b></summary>
 
 - about.html ✅
-- tournaments_cs2_2024.html (макет для WordPress)
+- tournaments_dota2_2024.html (макет для WordPress)
 
 </details>
 
