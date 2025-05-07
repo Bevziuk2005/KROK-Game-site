@@ -3,8 +3,9 @@
 /* -----ПРО ТУРНІР (опис в порядку контенту)----- */
 .tournaments_dota2_2024_about {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; /* Встановлює вертикальне розміщення */
+    align-items: flex-start; /* Центрує елементи по горизонталі */
+    justify-content: flex-start; /* Вирівнювання згори */
 
     width: 100%;
     max-width: 1060px;
@@ -18,8 +19,31 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    gap: 40px; /* Gap між елементами всередині — замість 1020px, бо це надто багато */
+
     color: white; /* Щоб текст був читабельний на темному фоні */
+}
+
+.tournaments_back {
+    width: 60px;
+    height: 37.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #BB4E01;
+    color: white;
+    margin: -15px 0 -5px 30px; /* top, right, bottom, left – тільки зліва */
+}
+
+
+.tournaments_back a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+    font-family: 'Calibri', sans-serif;
 }
 
 .tournaments_dota2_2024_about img {
@@ -29,6 +53,44 @@
     object-fit: cover;
     display: block;
     margin: 0 auto;
+}
+
+.tournaments_dota2_2024_text h2 {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1; /* 0% недопустимий, тому ставимо мінімально коректне значення */
+    letter-spacing: 0;
+    text-align: center; /* Горизонтальне вирівнювання */
+    vertical-align: middle; /* Не працює напряму на блокових елементах, див. нижче */
+    text-transform: uppercase;
+    margin: 0 auto 10px auto;
+    color: white; /* Або інший контрастний колір */
+}
+
+.tournaments_dota2_2024_text h3 {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110%;
+    font-variant: small-caps;
+    letter-spacing: 0;
+    text-indent: 10px;
+    text-transform: lowercase; /* Сумісно зі small-caps */
+    margin: 0 0 10px 0; /* За потреби відступи між заголовками */
+    color: white; /* Або інший відповідний колір */
+}
+
+.tournaments_dota2_2024_text  :not(h2):not(h3) {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    text-transform: lowercase; /* Спочатку lowercase, потім перетворимо на small-caps */
+    font-variant: small-caps;
+    letter-spacing: 0;
+    text-indent: 10px;
+    color: white; /* Якщо фон темний — для контрасту */
 }
 
 
