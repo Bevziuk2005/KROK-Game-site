@@ -132,32 +132,27 @@
 
 /* -----ТУРНІРНА СІТКА (опис в порядку контенту)----- */
 
-/* -----блок----- */
+/* блок */
 .tournaments_dota2_2024_map {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-
     background-color: #1D4289;
-
     width: 100%;
     max-width: 1060px;
     min-width: 430px;
     border-radius: 35px;
-
     padding: 20px;
     gap: 20px;
-
     color: white;
     font-family: Calibri, sans-serif;
-
     margin: 5px auto;
     text-align: center;
     box-sizing: border-box;
 }
 
-/* -----заголовок----- */
+/* заголовок */
 .tournaments_dota2_2024_map h2 {
     font-family: 'Calibri', sans-serif;
     font-weight: 700;
@@ -169,9 +164,10 @@
     align-items: center;
     justify-content: center;
     height: fit-content;
+    margin: 20px 0;
 }
 
-/* -----картинка----- */
+/* картинка (мапа турніру) */
 .tournaments_dota2_2024_map img {
     width: 1020px;
     height: 828px;
@@ -179,33 +175,35 @@
     object-fit: cover;
 }
 
-/* -----кнопка----- */
+/* кнопка */
 .tournaments_2024_dota2_map_source {
     width: 300px;
     min-width: 300px;
     max-width: 300px;
     height: 50px;
-
     background-color: #BB4E01;
     border: none;
     border-radius: 15px;
     padding: 16px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-
     font-family: Calibri, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: white;
-
     cursor: pointer;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+    animation: none;
+    transition: background-color 0.3s ease-in-out;
 }
+.tournaments_2024_dota2_map_source:hover {
+    background-color: #1D4289;
+}
+
 .tournaments_2024_dota2_map_source a {
     color: white;
     text-decoration: none;
@@ -215,15 +213,19 @@
     justify-content: center;
     align-items: center;
 }
+.tournaments_2024_dota2_map_source:hover a {
+    text-decoration: underline;
+}
+
 
 /* -----ПРИЗОВИЙ ФОНД----- */
 
-/* -----блок----- */
+/* блок */
 .tournaments_dota2_2024_prize_section {
     width: 100%;
     max-width: 1060px;
     min-width: 790px;
-    height: fit-content; /* Hug */
+    height: fit-content;
     background-color: #1D4289;
     border-radius: 35px;
     padding: 0 20px 10px 20px;
@@ -231,36 +233,36 @@
     flex-direction: column;
     gap: 20px;
     box-sizing: border-box;
-    margin: 0 auto; /* Центрування по горизонталі */
+    margin: 0 auto;
 }
 
-/* -----заголовок----- */
+/* заголовок */
 .tournaments_dota2_2024_prize_section h2 {
     font-family: Calibri, sans-serif;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1; /* Еквівалент 0% додаткової висоти */
+    line-height: 1;
     letter-spacing: 0;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
     display: flex;
-    align-items: center;    /* Вертикальне центрування */
-    justify-content: center; /* Горизонтальне центрування */
-    margin: 0; /* Щоб уникнути зайвих відступів браузера */
-    height: 100%; /* Щоб працювало align-items: center, якщо треба */
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0; 
+    height: 100%; 
 }
 
-/* -----фото і надписи призів----- */
+/* блок в якому знаходяться призи */
 .tournaments_dota2_2024_prize_row {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    flex-wrap: nowrap; /* ВАЖЛИВО: не дозволяє переходити в стовпчик */
+    flex-wrap: nowrap;
 }
 
-/* Обидва боки — однакові стилі */
+/* блоки призів */
 .tournaments_dota2_2024_prize_left,
 .tournaments_dota2_2024_prize_right {
     display: flex;
@@ -268,7 +270,7 @@
     align-items: center;
 }
 
-/* Зображення */
+/* малюнки */
 .tournaments_dota2_2024_prize_left img,
 .tournaments_dota2_2024_prize_right img {
     width: 430px;
@@ -278,11 +280,11 @@
     min-height: 430px;
     max-height: 430px;
     border-radius: 15px;
-    object-fit: cover;
+    object-fit: contain;
     background-color: #04112B;
 }
 
-/* Текст */
+/* надписи малюнків */
 .tournaments_dota2_2024_prize_left p,
 .tournaments_dota2_2024_prize_right p {
     font-family: Calibri, sans-serif;
@@ -298,5 +300,3 @@
     justify-content: center;
     align-items: center;
 }
-
-
