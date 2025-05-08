@@ -23,38 +23,33 @@
     color: white;
 }
 
-
 /* -----кнопка повернення----- */
 .tournaments_back {
     width: 60px;
     height: 37.5px;
-    padding: 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* вирівнювання картинки вліво */
+    justify-content: flex-start;
     border-radius: 15px;
-    border: none;
-    cursor: pointer;
     background-color: #BB4E01;
     margin: -15px 0 -5px 30px;
-    text-decoration: none; /* якщо це <a> */
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
 }
 
-.tournaments_back img {
+a.tournaments_back > img {
     width: 37.5px;
     height: 37.5px;
     margin-left: 11.25px;
 }
 
-
-
-.tournaments_back a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 16px;
-    font-family: 'Calibri', sans-serif;
+.tournaments_back:hover {
+    background-color: #04112B;
 }
-/* -----фото----- */
+
+
+/* фото */
 .tournaments_dota2_2024_about img {
     width: 1020px;
     height: 270px;
@@ -63,19 +58,35 @@
     display: block;
     margin: 0 auto;
 }
+
+
 /* -----текст----- */
-.tournaments_dota2_2024_text h2 {
+
+
+
+.tournaments_2024_dota2_about_text_h2 {
+    display: flex;
+    align-items: center;       /* вертикальне вирівнювання */
+    justify-content: center;   /* горизонтальне вирівнювання */
+    height: 20px;              /* або інша висота для вирівнювання по вертикалі */
+    width: 100%;               /* зайняти всю ширину батьківського елемента */
+    margin: 0 auto 10px auto;
+}
+
+.tournaments_2024_dota2_about_text_h2 > b {
     font-family: 'Calibri', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1; /* 0% недопустимий, тому ставимо мінімально коректне значення */
+    line-height: 1;
     letter-spacing: 0;
-    text-align: center; /* Горизонтальне вирівнювання */
-    vertical-align: middle; /* Не працює напряму на блокових елементах, див. нижче */
     text-transform: uppercase;
-    margin: 0 auto 10px auto;
-    color: white; /* Або інший контрастний колір */
+    color: white;
+    text-align: center;
+    width: 100%;              /* забезпечити, щоб текст зайняв всю ширину */
 }
+
+
+
 
 .tournaments_dota2_2024_text h3 {
     font-family: 'Calibri', sans-serif;
@@ -108,14 +119,17 @@
 /* -----кнопки в кінці----- */
 .tournaments_dota2_2024_button_text {
     display: flex;
-    gap: 10px; /* Відстань між кнопками, змініть за потреби */
-    flex-wrap: wrap; /* Дозволяє кнопкам переноситися на новий ряд, якщо не вміщаються */
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin: auto;
 }
+
+
 .tournaments_dota2_2024_button_text a {
     text-decoration: none;
-    color: inherit; /* Успадковує колір від кнопки */
-    display: block;
+    color: #ffffff;
 }
+
 
 .tournaments_2024_dota2_order {
     width: 350px;
@@ -127,16 +141,39 @@
     background-color: #BB4E01; /* Колір фону */
     color: white; /* Колір тексту */
     text-align: center; /* Центрування тексту */
-    font-size: 16px; /* Розмір шрифту */
-    font-weight: bold; /* Товстий шрифт */
+    font-weight: 700;
+    font-size: 16px;
     display: inline-block;
     text-decoration: none; /* Видаляємо підкреслення */
     transition: background-color 0.3s ease;
 }
-.tournaments_2024_dota2_order:hover {
-    background-color: #9a3a01; /* Темніший відтінок фону при наведенні */
+
+.tournaments_2024_dota2_end {
+    width: 350px;             /* Фіксована ширина 350px */
+    height: 50px;             /* Фіксована висота 50px */
+    min-width: 350px;         /* Мінімальна ширина 350px */
+    max-width: 350px;         /* Максимальна ширина 350px */
+    border-radius: 15px;      /* Закруглені кути */
+    padding: 16px;            /* Відступи всередині кнопки */
+    gap: 10px;                /* Проміжок між елементами всередині кнопки (якщо є) */
+    display: flex;            /* Використовуємо flex для розташування вмісту */
+    align-items: center;      /* Вирівнювання по вертикалі */
+    font-weight: 700;
+    font-size: 16px;
+    justify-content: center;  /* Вирівнювання по горизонталі */
+    text-align: center;       /* Центрування тексту всередині кнопки */
+    background-color: #BB4E01; /* Колір фону кнопки (як приклад) */
+    color: white;             /* Колір тексту на кнопці */
+    cursor: pointer;         /* Курсор при наведенні */
+    text-decoration: none;    /* Відключення підкреслення у посиланні */
 }
 
+
+
+.tournaments_2024_dota2_end:hover, .tournaments_2024_dota2_order:hover {
+    background-color: #1D4289; /* Зміна кольору фону при наведенні */
+    text-decoration: underline;
+}
 
 
 
