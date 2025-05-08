@@ -1,18 +1,18 @@
 /* -----Бевзюк----- */
 
 /* -----ПРО ТУРНІР (опис в порядку контенту)----- */
-/* -----блок----- */
+
+/* блок */
 .tournaments_dota2_2024_about {
     display: flex;
-    flex-direction: column; /* Встановлює вертикальне розміщення */
-    align-items: flex-start; /* Центрує елементи по горизонталі */
-    justify-content: flex-start; /* Вирівнювання згори */
-
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 100%;
     max-width: 1060px;
     min-width: 430px;
     max-height: 700px;
-    height: auto; /* Hug content (701px height тільки якщо фіксовано) */
+    height: auto;
     padding: 20px;
     background-color: #1D4289;
     border-radius: 35px;
@@ -20,24 +20,32 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-
-    color: white; /* Щоб текст був читабельний на темному фоні */
+    color: white;
 }
+
+
 /* -----кнопка повернення----- */
 .tournaments_back {
     width: 60px;
     height: 37.5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0;
     display: flex;
     align-items: center;
+    justify-content: flex-start; /* вирівнювання картинки вліво */
     border-radius: 15px;
     border: none;
     cursor: pointer;
     background-color: #BB4E01;
-    color: white;
-    margin: -15px 0 -5px 30px; /* top, right, bottom, left – тільки зліва */
+    margin: -15px 0 -5px 30px;
+    text-decoration: none; /* якщо це <a> */
 }
+
+.tournaments_back img {
+    width: 37.5px;
+    height: 37.5px;
+    margin-left: 11.25px;
+}
+
 
 
 .tournaments_back a {
@@ -130,7 +138,35 @@
 }
 
 
-/* -----ТУРНІРНА СІТКА (опис в порядку контенту)----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----ТУРНІРНА СІТКА----- */
 
 /* блок */
 .tournaments_dota2_2024_map {
@@ -164,7 +200,7 @@
     align-items: center;
     justify-content: center;
     height: fit-content;
-    margin: 20px 0;
+    margin: 0;
 }
 
 /* картинка (мапа турніру) */
