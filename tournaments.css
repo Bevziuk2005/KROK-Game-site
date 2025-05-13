@@ -1,3 +1,4 @@
+
 .tournaments_foto_logo {
     h2 {
         color: white;
@@ -10,21 +11,96 @@
     }
 }
 
+
+
+.tournaments_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    gap: 20px;
+}
+
+.tournament_logo_image{
+    width: 100%;
+}
 .tournaments_date {
     color: white;
     font-size: 25px;
-    padding-top: 0px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    margin-left: 300px;
+    margin: 0 0;
+}
+
+.tournaments_march{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .tournaments_event {
-    padding-left: 300px;
+    background-color: #1D4289;
+    width: 540px;
+
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tournament_image{
+    border-radius: 15px;
+    max-width: 480px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .tournaments_event_text {
     color: white;
-    padding-left: 0px;
+    margin: 0 auto;
+    line-height: 0.1;
+    text-align: center;
 
+}
+
+
+.tournaments_learn_more{
+    background-color: #BB4E01;
+    border-radius: 15px;
+    max-width: 200px;
+    height: 40px;
+
+    border: none;
+}
+
+
+
+/* АДАПТАЦІЯ */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .tournaments_march{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tournaments_container{
+        align-items: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .tournaments_march{
+        display: flex;
+        flex-direction: column;
+    }
+    .tournaments_container{
+        align-items: center;
+    }
+    .tournament_image{
+        width: 300px;
+    }
+    .tournaments_event {
+        width: 320px;
+        
+    }
 }
