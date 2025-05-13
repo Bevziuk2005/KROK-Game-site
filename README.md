@@ -151,22 +151,19 @@
 <details>
   <summary>Статус адаптивності сторінок</summary>
 
-- index.html ❌
-- about.html ❌
-- tournaments.html ❌
-- tournaments_cs2_2024.html ❌
-- tournaments_dota2_2024.html ❌
-- tournaments_lol_2024.html ❌
-- 404.html ❌
-- comands.html ❌
-- comands_cs2.html ❌
-- comands_dota2.html ❌
+- index.html ✅
+- about.html ✅
+- tournaments.html ⏳
+- tournaments_dota2_2024.html ⏳
+- 404.html ⏳
+- comands.html ✅
+- comands_cs2.html ⏳
 - news1.html ❌
 - news_and_events.html ❌
-- site_map.html ❌
+- site_map.html ⏳
 
 </details>
-<!-- ✅❌  -->
+<!-- ✅❌⏳  -->
 
 ---
 
