@@ -342,5 +342,6 @@ a.tournaments_back > img {
 @media (min-width: 320px) and (max-width: 767px) {
     .tournaments_dota2_2024_prize_row{
         flex-direction: column;
+        align-items: center;
     }
  }
