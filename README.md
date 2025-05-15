@@ -154,11 +154,11 @@
 - index.html ✅
 - about.html ✅
 - tournaments.html ❌
-- tournaments_dota2_2024.html ⏳
+- tournaments_dota2_2024.html ✅
 - comands.html ✅
 - comands_cs2.html ⏳
 - 404.html ⏳
-- site_map.html ⏳
+- site_map.html ✅
 - news1.html ❌
 - news_and_events.html ❌
 
