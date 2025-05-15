@@ -79,7 +79,7 @@ body {
 
 /* -----ФУТЕР----- */
 footer {
-    background-color: #1D4289;
+    background-color: #04112B;
     color: #ffffff;
     padding: 20px 0;
     font-family: Arial, sans-serif;
@@ -126,6 +126,7 @@ h3 {
 
 .footer-section2 ul li, 
 .footer-section3 ul li {
+    text-align: center;
     margin: 5px 0;
 }
 
@@ -134,6 +135,11 @@ h3 {
     color: #bbbbbb;
     text-decoration: none;
     transition: 0.3s;
+}
+
+.footer-section2,
+.footer-section3 {
+    background-color: #1D4289;
 }
 
 .footer-section2 ul li a:hover, 
@@ -177,7 +183,7 @@ h3 {
 #copywrite {
     text-align: center;
     padding: 10px;
-    background-color: #111;
+    background-color: #1D4289;
     font-size: 14px;
 }
 
