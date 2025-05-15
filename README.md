@@ -111,17 +111,18 @@
   <summary><b>Коляденко</b></summary>
 
 - navbar & footer
-- news_and_events.html
+
 - news1.html
 - tournaments.html
 
 </details>
 
 <details>
-  <summary><b>Семенюк ✅</b></summary>
+  <summary><b>Семенюк</b></summary>
 
-- index.html
-- comands.html
+- index.html ✅
+- comands.html ✅
+- news_and_events.html
 
 </details>
 
@@ -156,7 +157,7 @@
 - tournaments.html ❌
 - tournaments_dota2_2024.html ✅
 - comands.html ✅
-- comands_cs2.html ⏳
+- comands_cs2.html ✅
 - 404.html ⏳
 - site_map.html ✅
 - news1.html ❌
