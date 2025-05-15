@@ -114,7 +114,8 @@ footer {
 h3 {
     font-size: 18px;
     margin-bottom: 10px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     padding-bottom: 5px;
 }
 
@@ -367,7 +368,7 @@ nav button a {
 
 .modal-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -375,7 +376,7 @@ nav button a {
 
 .modal-nav-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .modal-nav-list {
@@ -399,9 +400,12 @@ nav button a {
 
 .modal-nav-settings-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     margin-left: auto;
+    margin-top: 20px;
 }
 
 
@@ -447,7 +451,7 @@ nav button a {
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.3s ease;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 

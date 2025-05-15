@@ -1,14 +1,10 @@
-@media (min-width: 320px) and (max-width: 767px) {
-    .comands-title-container{
-        font-size: 10px;
-    }
 
-}
+
 
 .comands-title-container{
     position: absolute;
-    background: linear-gradient(90deg, #C1D7FF 30%, #C95140 100%);
-    color: black;
+    background: linear-gradient(90deg, #1D4289 30%, #EB5933 100%);
+    color: white;
     width: 100%;
     justify-content: center;
     display: flex;
@@ -25,11 +21,12 @@
 }
 
 .comand-container {
-    background-color: #C1D7FF;
+    background-color: #1D4289;
+    color: white;
     border-radius: 20px;
     padding: 15px;
-    height: 400px; 
-    width: 300px; 
+
+    width: 620px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,8 +35,8 @@
 }
 
 .team-image {
-    width: 90%;
-    max-height: 180px; 
+    width: 95%;
+
     object-fit: cover; 
     border-radius: 20px;
 }
@@ -56,6 +53,16 @@
 .comand-button > a {
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
     display: block;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .comands-title-container{
+        font-size: 10px;
+    }
+    .comand-container{
+        width: 320px;
+    }
 }
