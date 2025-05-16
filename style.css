@@ -111,7 +111,7 @@ footer {
     font-weight: bold;
 }
 
-h3 {
+.footer-section2 h3, .footer-section3 h3 {
     font-size: 18px;
     margin-bottom: 10px;
     display: flex;
