@@ -596,3 +596,13 @@ nav button a {
 
     cursor: pointer;
 }
+
+#copywrite a {
+    font-weight: 300;
+}
+
+.footer-section2 a,
+.footer-section3 a,
+.footer-section4 a, p {
+    font-weight: 300;
+}
