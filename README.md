@@ -70,8 +70,13 @@
 </details>
 
 <details>
-  <summary>12 - 18 травня ⏳</summary>
+  <summary>12 - 18 травня ✅</summary>
   Завершуємо з CSS і активно беремося за адаптацію сторінок. WordPress - відкладаємо на невизначений час.
+</details>
+
+<details>
+  <summary>19 - 25 травня ⏳</summary>
+  Останні терміни по розробці CSS, а також злиття маленьких файлів в основний. Документування усього проведеного тестування
 </details>
 
 ---
@@ -111,7 +116,6 @@
   <summary><b>Коляденко</b></summary>
 
 - navbar & footer
-
 - news1.html
 - tournaments.html
 
@@ -130,16 +134,16 @@
   <summary><b>Бевзюк ✅</b></summary>
 
 - about.html 
-- tournaments_dota2_2024.html (макет для WordPress)
+- tournaments_dota2_2024.html
 
 </details>
 
 <details>
-  <summary><b>Чернявський ✅</b></summary>
+  <summary><b>Чернявський</b></summary>
 
 - 404.html
-- site_map.html
-- comands_cs2.html
+- site_map.html ✅
+- comands_cs2.html ✅
 
 </details>
 
@@ -180,6 +184,10 @@
 </details>
 <details>
   <summary>📝 Аналіз конкурентів</summary>
+  Додати після здачі
+</details>
+<details>
+  <summary>📝 Use case</summary>
   Додати після здачі
 </details>
 ---
