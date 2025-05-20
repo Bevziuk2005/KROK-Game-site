@@ -68,7 +68,8 @@
  }
 
 
-  
+
+
 
 
 
@@ -424,6 +425,7 @@ nav button a {
     justify-content: space-between;
     cursor: pointer;
     z-index: 2000;
+    margin-top: 35px;
 }
 
 .burger-icon span {
@@ -550,8 +552,8 @@ nav button a {
 }
 
 .command-container{
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 345px;
+    max-height: 345px;
     border-radius: 10px;
     display: flex;
 }
@@ -605,4 +607,26 @@ nav button a {
 .footer-section3 a,
 .footer-section4 a, p {
     font-weight: 300;
+}
+
+@media (min-width: 850px) and (max-width: 1120px) {
+    .footer-section1, .footer-section2, .footer-section3, .footer-section4 {
+
+        min-width: 180px;
+
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .footer-section1, .footer-section2, .footer-section3, .footer-section4 {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .command-container{
+        margin-left: -30px;
+    }
 }
