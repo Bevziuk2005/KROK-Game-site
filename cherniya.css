@@ -118,7 +118,7 @@
 
 .read_more {
   font-family: Calibri, sans-serif;
-  background-color: #ff7300;
+  background-color: #bb4e01;
   color: white;
   text-decoration: none;
   border: none;
@@ -133,7 +133,7 @@
 }
 
 .read_more:hover {
-  background-color: #ff9100;
+  background-color: #ff7300;
 }
 
 
