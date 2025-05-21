@@ -2,9 +2,12 @@
 
 /* -----бекграунди----- */
 .error_page {
-    background-image: url('Images/404.webp');
+    background-image: url('Images/404c.webp');
     background-size: cover; /* Зображення покриває весь екран */
     background-position: center; /* Центрує фон */
+    padding-left: -320px; /* Імітує обрізання зліва */
+    box-sizing: border-box; /* Враховує padding */
+
 }
 
 .map_page {
