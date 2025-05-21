@@ -115,17 +115,18 @@
 <details>
   <summary><b>Коляденко</b></summary>
 
-- navbar & footer
-- news1.html
-- tournaments.html
+- navbar & footer ✅
+- news1.html 
+- tournaments.html ✅
+- news_and_events.html ✅
 
 </details>
 
 <details>
-  <summary><b>Семенюк</b></summary>
+  <summary><b>Семенюк ✅</b></summary>
 
-- index.html ✅
-- comands.html ✅
+- index.html 
+- comands.html 
 - news_and_events.html
 
 </details>
@@ -139,11 +140,11 @@
 </details>
 
 <details>
-  <summary><b>Чернявський</b></summary>
+  <summary><b>Чернявський ✅</b></summary>
 
 - 404.html
-- site_map.html ✅
-- comands_cs2.html ✅
+- site_map.html 
+- comands_cs2.html 
 
 </details>
 
@@ -158,14 +159,14 @@
 
 - index.html ✅
 - about.html ✅
-- tournaments.html ❌
+- tournaments.html ✅
 - tournaments_dota2_2024.html ✅
 - comands.html ✅
 - comands_cs2.html ✅
-- 404.html ⏳
+- 404.html ✅
 - site_map.html ✅
 - news1.html ❌
-- news_and_events.html ❌
+- news_and_events.html ✅
 
 </details>
 <!-- ✅❌⏳  -->
