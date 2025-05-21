@@ -70,10 +70,6 @@
 
 
 
-
-
-
-
 body {
     margin: 0;
     background-color: #04112B;
@@ -505,7 +501,10 @@ nav button a {
     justify-content: center;
     display: flex;
     text-align: center;
+
 }
+
+
 
 .news-text-container-second{
     margin-top: -70px;
