@@ -70,9 +70,14 @@
     max-width: 200px;
     height: 40px;
 
+    cursor: pointer;
     border: none;
 }
 
+.tournaments_learn_more:hover {
+    background-color: #ff7300;
+    transform: scale(1.05);
+}
 
 
 /* АДАПТАЦІЯ */
