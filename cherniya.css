@@ -97,6 +97,8 @@
   border-radius: 20px;
   text-align: center;
   background-color: #1D4289;
+
+  padding-bottom: 10px;
   min-height: 650px;
   max-width: 620px;
 }
@@ -252,5 +254,12 @@
 @media (min-width: 320px) and (max-width: 1023px) {
   .news_scroll{
     flex-direction: row;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .news_item{
+    min-height: 100px;
+    
   }
 }
