@@ -11,9 +11,9 @@
 }
 
 .news-container {
-border-radius: 20px;
+  border-radius: 20px;
   background-color: #1D4289;
-  padding-bottom: 100px;
+  padding-bottom: 15px;
   max-height: 1300px;
   max-width: 1000px;
   margin-top: 10px;
@@ -42,14 +42,16 @@ border-radius: 20px;
 }
 
 .back_to_feed {
-  background-color: #D64F49;
+  margin-right: auto;
+  margin-left: 25px;
+  background-color: #bb4e01;
   color: white;
   border: none;
   border-radius: 10px;
-  margin-top: 30px;
-  margin-bottom: -30px;
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: -48px;
+  padding: 0.3rem 1rem;
+  font-size: 0.85rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -58,18 +60,3 @@ border-radius: 20px;
     background-color: #ff7300;
 }
 
-.read_more {
-  background-color: #D64F49;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  margin-top: 50px;
-}
-
-.read_more:hover {
-    background-color: #ff7300;
-}
