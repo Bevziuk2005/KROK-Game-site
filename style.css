@@ -248,24 +248,24 @@
     --about_me_img_background_color: ;
 
     /*navbar & footer*/
-    --body_background_color: ;
-    --nav_background_color: ;
-    --nav-letters_mode_background_color: ;
-    --nav-letters_mode_color: ;
-    --nav-letters-mode_hover_background_color: ; 
-    --nav_button_background_color: ;
-    --nav_button_color: ;
-    --nav_button_a_color: ;
-    --nav-theme_background_color: ;
-    --nav-theme_hover_background_color: ;
-    --nav2_r_hover_background_color: ;
-    --nav2_l_background_color: ;
-    --nav2_l_hover_background_color: ;
-    --nav_button_background_color: ;
-    --nav_button_hover_background_color: ;
-    --nav2_c_hover_background_color: ;
-    --title_nav_background_color: ;
-    --title_nav_color: ;
+    --body_background_color: #C1D7FF;
+    --nav_background_color: #5D87D4;
+    --nav-letters_mode_background_color: #C1D7FF;
+    --nav-letters_mode_color: black;
+    --nav-letters-mode_hover_background_color: #CE5569; 
+    --nav_button_background_color: #C1D7FF;
+    --nav_button_color: black;
+    --nav_button_a_color: black;
+    --nav-theme_background_color: #C1D7FF;
+    --nav-theme_hover_background_color: #CE5569;
+    --nav2_r_hover_background_color: #CE5569;
+    --nav2_l_background_color: #5D87D4;
+    --nav2_l_hover_background_color: #CE5569;
+    --nav_button_background_color: #C1D7FF;
+    --nav_button_hover_background_color: #CE5569;
+    --nav2_c_hover_background_color: #CE5569;
+    --title_nav_background_color: #C1D7FF;
+    --title_nav_color: black;
     /*------*/
     --burger_icon_color: ;
     --modal_background_color: ;
@@ -276,17 +276,17 @@
     --modal_nav_letters_mode_background_color: ;
     --modal_nav_letters_mode_color: ;
     /*------*/
-    --footer_background_color: ;
-    --footer_color: ;
-    --footer_section2_3_ul_li_a_color: ;
-    --footer_section2_3_background_color: ;
-    --footer_section2_3_ul_li_a_hover_color: ;
-    --footer_section4_a_color: ;
-    --discord_button_background_color: ;
-    --discord_button_color: ;
-    --copywrite_background_color: ;
-    --copywrite_a_color: ;
-    --copywrite_a_hover_color: ;
+    --footer_background_color: #5D87D4;
+    --footer_color: black;
+    --footer_section2_3_ul_li_a_color: black;
+    --footer_section2_3_background_color: #C1D7FF;
+    --footer_section2_3_ul_li_a_hover_color: black;
+    --footer_section4_a_color: black;
+    --discord_button_background_color: #C1D7FF;
+    --discord_button_color: black;
+    --copywrite_background_color: #C1D7FF;
+    --copywrite_a_color: black;
+    --copywrite_a_hover_color: black;
 
     /*404*/
     --lines_404_background_1: #C1D7FF;
