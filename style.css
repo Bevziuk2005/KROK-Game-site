@@ -2,7 +2,7 @@
 /*                                ЗМІСТ                               */
 /* ================================================================== *//*
    00. ROOT
-   01. РОЗДІЛ: НОВИНИ
+   01. РОЗДІЛ: НОВИНИ --
    02. РОЗДІЛ: КОМАНДИ
    03. РОЗДІЛ: ТУРНІРИ
    04. СТОРІНКА: ГОЛОВНА
@@ -27,16 +27,639 @@
 /* ================================================================== */
 /*                           РОЗДІЛ: КОМАНДИ                          */
 /* ================================================================== */
+
 /* -------------------- СТОРІНКА: СПИСОК КОМАНД --------------------- */
+.comands-title-container{
+    position: absolute;
+    background: linear-gradient(90deg, #1D4289 30%, #EB5933 100%);
+    color: white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.comands-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin-top: 80px;
+}
+
+.comand-container {
+    background-color: #1D4289;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+
+    max-width: 620px; 
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    text-align: center;
+}
+
+.team-image {
+    width: 95%;
+
+    object-fit: cover; 
+    border-radius: 20px;
+}
+
+.comand-button {
+    border-radius: 15px;
+    background-color: #D64F49;
+    border: none;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+
+.comand-button:hover {
+     background-color: #ff7300;
+  transform: scale(1.05);
+}
+
+.comand-button > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+
+/* АДАПТАЦІЯ */
+@media (min-width: 320px) and (max-width: 767px) {
+    .comands-title-container{
+        font-size: 10px;
+    }
+    .comand-container{
+        width: 290px;
+        height: auto;
+    }
+    .comands-list{
+        flex-wrap: wrap;
+   }
+
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+   .comands-list{
+        flex-wrap: wrap;
+   }
+   .comand-container{
+        height: auto;
+    }
+}
+
 
 /* -------------------- СТОРІНКА: КОМАНДА --------------------------- */
+.comand_headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+.comand_headline img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.videoclip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comands {
+  width: 100%;
+  max-width: 960px;
+  margin: 5px auto;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1D4289;
+  border-radius: 35px;
+
+  color: white;
+  font-family: Calibri, sans-serif;
+  min-height: 100vh;
+}
+
+.team_background {
+  margin-top: -25px;
+  display: flex;
+  justify-content: center;
+}
+
+.team_background img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.player_comands {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+/* контейнер гравця */
+.team_member {
+  border-radius: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.team_member:hover {
+  transform: scale(1.05);
+}
+
+.team_member_image {
+  width: 100%;
+  max-width: 280px;
+  border-radius: 12px;
+  margin-bottom: 0;
+}
+.team_member h3 {
+  margin-top: 0.2rem;
+}
+
+.zayavka_button {
+  background-color: #ff7300;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.zayavka_button:hover {
+  background-color: #ff9100;
+}
+
 
 /* ================================================================== */
 /*                           РОЗДІЛ: ТУРНІРИ                          */
 /* ================================================================== */
+
 /* -------------------- СТОРІНКА: СПИСОК ТУРНІРІВ ------------------- */
+/* ФОТО */
+.tournaments_foto_logo {
+    h2 {
+        color: white;
+        text-align: center;
+        background: linear-gradient(to left, #04112B, skyblue, #04112B);
+        height: 40px;
+        padding-top: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.tournament_logo_image{
+    width: 100%;
+}
+
+/* ПОДІЇ */
+.tournaments_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.tournaments_date {
+    color: white;
+    font-size: 25px;
+    margin: 0 0;
+}
+
+.tournaments_event {
+    background-color: #1D4289;
+    width: 540px;
+
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.tournament_image{
+    border-radius: 15px;
+    max-width: 480px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tournaments_event_text {
+    color: white;
+    margin: 0 auto;
+    line-height: 0.1;
+    text-align: center;
+
+}
+
+.tournaments_learn_more{
+    background-color: #BB4E01;
+    border-radius: 15px;
+    max-width: 200px;
+    height: 40px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.tournaments_learn_more:hover {
+    background-color: #ff7300;
+    transform: scale(1.05);
+}
+
+.tournaments_march{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* АДАПТАЦІЯ */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .tournaments_march{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tournaments_container{
+        align-items: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .tournaments_march{
+        display: flex;
+        flex-direction: column;
+    }
+    .tournaments_container{
+        align-items: center;
+    }
+    .tournament_image{
+        width: 300px;
+    }
+    .tournaments_event {
+        width: 320px;
+        
+    }
+}
+
 
 /* -------------------- СТОРІНКА: ТУРНІР ---------------------------- */
+/* ПРО ТУРНІР  */
+.tournaments_dota2_2024_about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 1060px;
+
+    max-height: 700px;
+    height: auto;
+    padding: 20px;
+    background-color: #1D4289;
+    border-radius: 35px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+/* кнопка повернення */
+.tournaments_back {
+    width: 60px;
+    height: 37.5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+    background-color: #BB4E01;
+    margin: -15px 0 -5px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+a.tournaments_back > img {
+    width: 37.5px;
+    height: 37.5px;
+    margin-left: 11.25px;
+}
+
+.tournaments_back:hover {
+    background-color: #04112B;
+}
+
+.tournaments_dota2_2024_about img {
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ТЕКСТ */
+.tournaments_dota2_2024_text {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 0;
+    padding-left: 10px; 
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tournaments_dota2_2024_text h2 {
+    font-size: 20px;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 700;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.tournaments_dota2_2024_text h3 {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 700;
+    margin: 0; 
+}
+
+.tournaments_dota2_2024_text p,
+.tournaments_dota2_2024_text ul,
+.tournaments_dota2_2024_text li {
+    margin: 0;      
+    padding: 0; 
+    list-style-position: inside;
+}
+
+.tournaments_dota2_2024_text ul {
+    padding-left: 10px;
+}
+
+.tournaments_dota2_2024_text li {
+    margin-bottom: 0;
+}
+
+.tournaments_dota2_2024_text p:has(+ ul) {
+    margin-bottom: 8px; 
+}
+
+
+/* кнопки в кінці */
+.tournaments_dota2_2024_button_text {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: nowrap;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.tournaments_dota2_2024_button_text a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.tournaments_2024_dota2_order {
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 16px;
+    background-color: #BB4E01; 
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+.tournaments_2024_dota2_end {
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    gap: 10px;
+    display: flex;  
+    align-items: center; 
+    font-weight: 700;
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;  
+    background-color: #BB4E01; 
+    color: white; 
+    cursor: pointer; 
+    text-decoration: none; 
+    border: none;
+}
+
+.tournaments_2024_dota2_end:hover, .tournaments_2024_dota2_order:hover {
+    background-color: #1D4289;
+    text-decoration: underline;
+}
+
+/* ТУРНІРНА СІТКА */
+.tournaments_dota2_2024_map {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #1D4289;
+    width: 100%;
+    max-width: 1060px;
+    border-radius: 35px;
+    padding: 20px;
+    gap: 20px;
+    color: white;
+    font-family: Calibri, sans-serif;
+    margin: 5px auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* заголовок */
+.tournaments_dota2_2024_map h2 {
+    font-family: 'Calibri', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin: 0;
+}
+
+/* картинка (мапа турніру) */
+.tournaments_dota2_2024_map img {
+    width: 100%;
+    height: 828px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* кнопка */
+.tournaments_2024_dota2_map_source {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 50px;
+    background-color: #BB4E01;
+    border: none;
+    border-radius: 15px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    animation: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tournaments_2024_dota2_map_source:hover {
+    background-color: #1D4289;
+}
+
+.tournaments_2024_dota2_map_source a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tournaments_2024_dota2_map_source:hover a {
+    text-decoration: underline;
+}
+
+/* ПРИЗОВИЙ ФОНД */
+.tournaments_dota2_2024_prize_section {
+    width: 100%;
+    max-width: 1060px;
+
+    height: fit-content;
+    background-color: #1D4289;
+    border-radius: 35px;
+    padding: 0 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* заголовок */
+.tournaments_dota2_2024_prize_section h2 {
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0; 
+    height: 100%; 
+}
+
+/* блок в якому знаходяться призи */
+.tournaments_dota2_2024_prize_row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+/* блоки призів */
+.tournaments_dota2_2024_prize_left,
+.tournaments_dota2_2024_prize_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* малюнки */
+.tournaments_dota2_2024_prize_left img,
+.tournaments_dota2_2024_prize_right img {
+    width: 100%;
+    max-width: 460px;
+    height: 460px;
+
+    border-radius: 15px;
+    object-fit: contain;
+    background-color: #04112B;
+}
+
+/* надписи малюнків */
+.tournaments_dota2_2024_prize_left p,
+.tournaments_dota2_2024_prize_right p {
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    text-indent: 10px;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* АДАПТАЦІЯ */
+@media (min-width: 320px) and (max-width: 767px) {
+    .tournaments_dota2_2024_prize_row{
+        flex-direction: column;
+        align-items: center;
+    }
+ }
+
 
 /* ================================================================== */
 /*                           СТОРІНКА: ГОЛОВНА                        */
@@ -310,7 +933,6 @@ u, u:hover, u:focus, u:active {
     font-size: 24px;
     font-style: normal;
 }
-
 
 /* текст 2 блоку */
 .about_authors_text > h2 {
