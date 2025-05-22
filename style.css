@@ -143,7 +143,6 @@
     --copywrite_a_color: #bbb;
     --copywrite_a_hover_color: white;
 
-
     /*404*/
     --lines_404_background_1: #1d4289;
     --lines_404_background_2: #a9071f;
@@ -163,7 +162,148 @@
 }
 
 .light-theme {
+    /*новини*/
+    --news_scroll_color: ;
+    --news_item_background_color: ;
+    --read_more_background_color: ;
+    --read_more__color: ;
+    --read_more_hover_background_color: ;
+    /*------*/
 
+    /*СТОРІНКА ВЛАДА*/
+
+    /*команди*/
+    --comands_title_container_1_background: ;
+    --comands_title_container_2_background: ;
+    --comands_title_container_3_background: ;
+    --comands_title_container_color: ;
+    --comand_container_background_color: ;
+    --comand_container_color: ;
+    --comand_button_background_color: ;
+    --comand_button_hover_background_color: ;
+    --comand_button_a: ;
+    /*------*/
+    --comand_background_color: ;
+    --comand_color: ;
+    --comands_color: ;
+    --zayavka_button_background_color: ;
+    --zayavka_button_color: ;
+    --zayavka_button_hover_background_color: ;
+
+    /*турніри*/
+    --tournaments_foto_logo_h2_color: ;
+    --tournaments_foto_logo_h2_background_1: ;
+    --tournaments_foto_logo_h2_background_2: ;
+    --tournaments_foto_logo_h2_background_3: ;
+    --tournaments_date_color: ;
+    --tournaments_event_background_color: ;
+    --tournaments_event_text_color: ;
+    --tournaments_learn_more_background_color: ;
+    --tournaments_learn_more_hover_background_color: ;
+    /*------*/
+    --tournaments_dota2_2024_about_background_color: ; 
+    --tournaments_dota2_2024_about_color: ;
+    --tournaments_back_background_color: ;
+    --tournaments_back_hover_background_color: ;
+    --tournaments_dota2_2024_button_text_a: ;
+    --tournaments_2024_dota2_order_background_color: ;
+    --tournaments_2024_dota2_order_color: ;
+    --tournaments_2024_dota2_end_background_color: ;
+    --tournaments_2024_dota2_end_color: ;
+    --tournaments_2024_dota2_end_and_order_hover: ;
+    --tournaments_dota2_2024_map_background_color: ;
+    --tournaments_dota2_2024_map_color: ;
+    --tournaments_2024_dota2_map_source_background_color: ;
+    --tournaments_2024_dota2_map_source_color: ;
+    --tournaments_2024_dota2_map_source_hover_background_color: ;
+    --tournaments_2024_dota2_map_source_a: ;
+    --tournaments_dota2_2024_prize_section_background_color: ;
+    --tournaments_dota2_2024_prize_section_h2: ;
+    --tournaments_dota2_2024_prize_left_right_img: ;
+    --tournaments_dota2_2024_prize_left_right_p: ;
+
+    /*головна*/
+    --news_title_container_background_color: ;
+    --news_title_container_color: ;
+    --news_text_container_second_background_color: ;
+    --news_text_container_second_color: ;
+    --stats_section_background_color: ;
+    --stats_color: ;
+    --comands_title_background_color: ;
+    --comands_title_color: ;
+    --command_button_background_color: ;
+    --command_button_color: ;
+
+    /*про нас*/
+    --about_article_lines_background_1: ;
+    --about_article_lines_background_2: ;
+    --about_article_lines_background_3: ;
+    --about_article_lines_color: ;
+    --about_logo_text_color: ;
+    --about_part_1_and_2_background_color: ;
+    --about_part_1_and_2_color: ;
+    --about_part_3_background_color: ;
+    --about_part_3_color: ;
+    --u_hover_focus_active_color: ;
+    --about_me_img_background_color: ;
+
+    /*navbar & footer*/
+    --body_background_color: ;
+    --nav_background_color: ;
+    --nav-letters_mode_background_color: ;
+    --nav-letters_mode_color: ;
+    --nav-letters-mode_hover_background_color: ; 
+    --nav_button_background_color: ;
+    --nav_button_color: ;
+    --nav_button_a_color: ;
+    --nav-theme_background_color: ;
+    --nav-theme_hover_background_color: ;
+    --nav2_r_hover_background_color: ;
+    --nav2_l_background_color: ;
+    --nav2_l_hover_background_color: ;
+    --nav_button_background_color: ;
+    --nav_button_hover_background_color: ;
+    --nav2_c_hover_background_color: ;
+    --title_nav_background_color: ;
+    --title_nav_color: ;
+    /*------*/
+    --burger_icon_color: ;
+    --modal_background_color: ;
+    --nav_button_a_color: ;
+    --nav_button_background_color: ;
+    --burger_icon_span_background_color: ;
+    --modal_nav_theme_background_color: ;
+    --modal_nav_letters_mode_background_color: ;
+    --modal_nav_letters_mode_color: ;
+    /*------*/
+    --footer_background_color: ;
+    --footer_color: ;
+    --footer_section2_3_ul_li_a_color: ;
+    --footer_section2_3_background_color: ;
+    --footer_section2_3_ul_li_a_hover_color: ;
+    --footer_section4_a_color: ;
+    --discord_button_background_color: ;
+    --discord_button_color: ;
+    --copywrite_background_color: ;
+    --copywrite_a_color: ;
+    --copywrite_a_hover_color: ;
+
+    /*404*/
+    --lines_404_background_1: ;
+    --lines_404_background_2: ;
+    --lines_404_background_3: ;
+    --lines_404_color: ;
+    --article_text_404_color: ;
+
+    /*мапа*/
+    --article_lines_background_1: ;
+    --article_lines_background_2: ;
+    --article_lines_color: ;
+    --article_text_mapa_color: ;
+    --site_map_background_color: ;
+    --site_map_h2_color: ;
+    --site_map_h3_color: ;
+    --site_map_p_color: ;
 }
 
 /* ================================================================== */
@@ -182,7 +322,7 @@
   flex-wrap: wrap;
   align-items: center;
   border-radius: 35px;
-  color: white;
+  color: var(--news_scroll_color);
   font-family: Calibri, sans-serif;
   gap: 20px;
 }
@@ -191,7 +331,7 @@
 .news_item {
   border-radius: 20px;
   text-align: center;
-  background-color: #1D4289;
+  background-color: var(--news_item_background_color);
   padding-bottom: 10px;
   padding-bottom: 10px;
   min-height: 650px;
@@ -212,8 +352,8 @@
 /* кнопка */
 .read_more {
   font-family: Calibri, sans-serif;
-  background-color: #bb4e01;
-  color: white;
+  background-color: var(--read_more_background_color);
+  color: var(--read_more__color);
   text-decoration: none;
   border: none;
   border-radius: 10px;
@@ -226,7 +366,7 @@
 }
 
 .read_more:hover {
-  background-color: #ff7300;
+  background-color: var(--read_more_hover_background_color);
   transform: scale(1.05);
 }
 
@@ -260,8 +400,8 @@
 /* -------------------- СТОРІНКА: СПИСОК КОМАНД --------------------- */
 .comands-title-container{
     position: absolute;
-    background: linear-gradient(90deg, #1D4289 0%, #EB5933 50%, #1D4289 100%);
-    color: white;
+    background: linear-gradient(90deg, var(--comands_title_container_1_background) 0%, var(--comands_title_container_2_background) 50%, var(--comands_title_container_3_background) 100%);
+    color: var(--comands_title_container_color);
     width: 100%;
     justify-content: center;
     display: flex;
@@ -278,8 +418,8 @@
 }
 
 .comand-container {
-    background-color: #1D4289;
-    color: white;
+    background-color: var(--comand_container_background_color);
+    color: var(--comand_container_color);
     border-radius: 20px;
     padding: 15px;
     max-width: 620px; 
@@ -299,7 +439,7 @@
 
 .comand-button {
     border-radius: 15px;
-    background-color: #D64F49;
+    background-color: var(--comand_button_background_color);
     border: none;
     width: 80%;
     text-align: center;
@@ -307,14 +447,14 @@
 }
 
 .comand-button:hover {
-    background-color: #ff7300;
+    background-color: var(--comand_button_hover_background_color);
     transform: scale(1.05);
 }
 
 .comand-button > a {
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: var(--comand_button_a);
     display: block;
 }
 
@@ -373,9 +513,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1D4289;
+  background-color: var(--comand_background_color);
   border-radius: 35px;
-  color: white;
+  color: var(--comand_color);
   font-family: Calibri, sans-serif;
   min-height: 100vh;
 }
@@ -426,8 +566,8 @@
 }
 
 .zayavka_button {
-  background-color: #ff7300;
-  color: white;
+  background-color: var(--zayavka_button_background_color);
+  color: var(--zayavka_button_color);
   border: none;
   border-radius: 10px;
   margin-top: 10px;
@@ -439,7 +579,7 @@
 }
 
 .zayavka_button:hover {
-  background-color: #ff9100;
+  background-color: var(--zayavka_button_hover_background_color);
 }
 
 
@@ -451,9 +591,9 @@
 /* ФОТО */
 .tournaments_foto_logo {
     h2 {
-        color: white;
+        color: var(--tournaments_foto_logo_h2_color);
         text-align: center;
-        background: linear-gradient(to left, #04112B, skyblue, #04112B);
+        background: linear-gradient(to left, var(--tournaments_foto_logo_h2_background_1), var(--tournaments_foto_logo_h2_background_2), var(--tournaments_foto_logo_h2_background_3));
         height: 40px;
         padding-top: 15px;
         margin-top: 0px;
@@ -475,13 +615,13 @@
 }
 
 .tournaments_date {
-    color: white;
+    color: var(--tournaments_date_color);
     font-size: 25px;
     margin: 0 0;
 }
 
 .tournaments_event {
-    background-color: #1D4289;
+    background-color: var(--tournaments_event_background_color);
     width: 540px;
     border-radius: 35px;
     display: flex;
@@ -497,14 +637,14 @@
 }
 
 .tournaments_event_text {
-    color: white;
+    color: var(--tournaments_event_text_color);
     margin: 0 auto;
     line-height: 0.1;
     text-align: center;
 }
 
 .tournaments_learn_more{
-    background-color: #BB4E01;
+    background-color: var(--tournaments_learn_more_background_color);
     border-radius: 15px;
     max-width: 200px;
     height: 40px;
@@ -513,7 +653,7 @@
 }
 
 .tournaments_learn_more:hover {
-    background-color: #ff7300;
+    background-color: var(--tournaments_learn_more_hover_background_color);
     transform: scale(1.05);
 }
 
@@ -565,13 +705,13 @@
     max-height: 700px;
     height: auto;
     padding: 20px;
-    background-color: #1D4289;
+    background-color: var(--tournaments_dota2_2024_about_background_color);
     border-radius: 35px;
     margin: 0 auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: var(--tournaments_dota2_2024_about_color);
 }
 
 /* кнопка повернення */
@@ -582,7 +722,7 @@
     align-items: center;
     justify-content: flex-start;
     border-radius: 15px;
-    background-color: #BB4E01;
+    background-color: var(--tournaments_back_background_color);
     margin: -15px 0 -5px 30px;
     text-decoration: none;
     cursor: pointer;
@@ -596,7 +736,7 @@ a.tournaments_back > img {
 }
 
 .tournaments_back:hover {
-    background-color: #04112B;
+    background-color: var(--tournaments_back_hover_background_color);
 }
 
 .tournaments_dota2_2024_about img {
@@ -667,7 +807,7 @@ a.tournaments_back > img {
 
 .tournaments_dota2_2024_button_text a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--tournaments_dota2_2024_button_text_a);
 }
 
 .tournaments_2024_dota2_order {
@@ -675,8 +815,8 @@ a.tournaments_back > img {
     height: 50px;
     border-radius: 15px;
     padding: 16px;
-    background-color: #BB4E01; 
-    color: white;
+    background-color: var(--tournaments_2024_dota2_order_background_color); 
+    color: var(--tournaments_2024_dota2_order_color);
     text-align: center;
     font-weight: 700;
     font-size: 16px;
@@ -696,15 +836,15 @@ a.tournaments_back > img {
     font-size: 16px;
     justify-content: center;
     text-align: center;  
-    background-color: #BB4E01; 
-    color: white; 
+    background-color: var(--tournaments_2024_dota2_end_background_color); 
+    color: var(--tournaments_2024_dota2_end_color); 
     cursor: pointer; 
     text-decoration: none; 
     border: none;
 }
 
 .tournaments_2024_dota2_end:hover, .tournaments_2024_dota2_order:hover {
-    background-color: #1D4289;
+    background-color: var(--tournaments_2024_dota2_end_and_order_hover);
     text-decoration: underline;
 }
 
@@ -714,13 +854,13 @@ a.tournaments_back > img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: #1D4289;
+    background-color: var(--tournaments_dota2_2024_map_background_color);
     width: 100%;
     max-width: 1060px;
     border-radius: 35px;
     padding: 20px;
     gap: 20px;
-    color: white;
+    color: var(--tournaments_dota2_2024_map_color);
     font-family: Calibri, sans-serif;
     margin: 5px auto;
     text-align: center;
@@ -756,7 +896,7 @@ a.tournaments_back > img {
     min-width: 300px;
     max-width: 300px;
     height: 50px;
-    background-color: #BB4E01;
+    background-color: var(--tournaments_2024_dota2_map_source_background_color);
     border: none;
     border-radius: 15px;
     padding: 16px;
@@ -767,7 +907,7 @@ a.tournaments_back > img {
     font-family: Calibri, sans-serif;
     font-size: 20px;
     font-weight: 600;
-    color: white;
+    color: var(--tournaments_2024_dota2_map_source_color);
     cursor: pointer;
     text-align: center;
     text-transform: uppercase;
@@ -777,11 +917,11 @@ a.tournaments_back > img {
 }
 
 .tournaments_2024_dota2_map_source:hover {
-    background-color: #1D4289;
+    background-color: var(--tournaments_2024_dota2_map_source_hover_background_color);
 }
 
 .tournaments_2024_dota2_map_source a {
-    color: white;
+    color: var(--tournaments_2024_dota2_map_source_a);
     text-decoration: none;
     width: 100%;
     height: 100%;
@@ -798,7 +938,7 @@ a.tournaments_back > img {
     width: 100%;
     max-width: 1060px;
     height: fit-content;
-    background-color: #1D4289;
+    background-color: var(--tournaments_dota2_2024_prize_section_background_color);
     border-radius: 35px;
     padding: 0 20px 10px 20px;
     display: flex;
@@ -816,7 +956,7 @@ a.tournaments_back > img {
     line-height: 1;
     letter-spacing: 0;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--tournaments_dota2_2024_prize_section_h2);
     text-align: center;
     display: flex;
     align-items: center;
@@ -850,7 +990,7 @@ a.tournaments_back > img {
     height: 460px;
     border-radius: 15px;
     object-fit: contain;
-    background-color: #04112B;
+    background-color: var(--tournaments_dota2_2024_prize_left_right_img);
 }
 
 /* надписи малюнків */
@@ -862,7 +1002,7 @@ a.tournaments_back > img {
     line-height: 1.4;
     text-transform: uppercase;
     text-align: center;
-    color: #ffffff;
+    color: var(--tournaments_dota2_2024_prize_left_right_p);
     text-indent: 10px;
     margin: 10px 0 0 0;
     display: flex;
@@ -893,8 +1033,8 @@ a.tournaments_back > img {
 
 .news-title-container{
     position: absolute;
-    background-color: rgba(4, 17, 43, 0.7);
-    color: white;
+    background-color: var(--news_title_container_background_color);
+    color: var(--news_title_container_color);
     width: 100%;
     justify-content: center;
     display: flex;
@@ -909,8 +1049,8 @@ a.tournaments_back > img {
 
 .news-text-container-second{
     margin-top: -70px;
-    background-color: rgba(4, 17, 43, 0.7);
-    color: white;
+    background-color: var(--news_text_container_second_background_color);
+    color: var(--news_text_container_second_color);
     width: 100%;
     justify-content: center;
     display: flex;
@@ -918,7 +1058,7 @@ a.tournaments_back > img {
 
 /* СТАТИСТИКА */
 .stats-section {
-    background-color: #04112BB2;
+    background-color: var(--stats_section_background_color);
     padding: 20px;
     border-radius: 10px;
   }
@@ -930,7 +1070,7 @@ a.tournaments_back > img {
     gap: 100px;
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: var(--stats_color);
     font-family: 'Osvlad', sans-serif;
 }
 
@@ -959,8 +1099,8 @@ a.tournaments_back > img {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    background-color: #1D4289;
-    color: white;
+    background-color: var(--comands_title_background_color);
+    color: var(--comands_title_color);
 }
 
 .index_comands{
@@ -984,8 +1124,8 @@ a.tournaments_back > img {
 }
 
 .command-button{
-    background-color: #BB4E01;
-    color: white;
+    background-color: var(--command_button_background_color);
+    color: var(--command_button_color);
     border-radius: 10px;
     height: 50px;
     padding: 10px 40px;
@@ -1061,14 +1201,15 @@ a.tournaments_back > img {
 }
 
 .about_article_lines {
-    background: linear-gradient(90deg, #04112B 0%, #1D4289 50%, #04112B 100%);
-    color: black;
+    background: linear-gradient(90deg, var(--about_article_lines_background_1) 0%, var(--about_article_lines_background_2) 50%, var(--about_article_lines_background_3) 100%);
+    color: var(--about_article_lines_color);
     width: 100%;
     justify-content: center;
     display: flex;
 }
 
 .about_logo_text {
+    color: var(--about_logo_text_color);
     font-family: Calibri, sans-serif;
     font-weight: 700;
     font-size: 32px;
@@ -1078,7 +1219,6 @@ a.tournaments_back > img {
     text-align: center;
     vertical-align: middle;
     text-transform: uppercase;
-    color: white;
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -1090,12 +1230,12 @@ a.tournaments_back > img {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-color: #1D4289;
+    background-color: var(--about_part_1_and_2_background_color);
     max-width: 1060px;
     border-radius: 35px;
     padding: 20px;
     gap: 20px;
-    color: white;
+    color: var(--about_part_1_and_2_color);
     font-family: Calibri, sans-serif;
     margin: 5px auto;
 }
@@ -1104,12 +1244,12 @@ a.tournaments_back > img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1D4289;
+    background-color: var(--about_part_3_background_color);
     max-width: 1060px;
     border-radius: 35px;
     padding: 20px;
     gap: 20px;
-    color: white;
+    color: var(--about_part_3_color);
     font-family: Calibri, sans-serif;
     margin: 5px auto;
     text-align: center;
@@ -1124,7 +1264,7 @@ a.tournaments_back > img {
 }
 
 u, u:hover, u:focus, u:active {
-    color: white;
+    color: var(--u_hover_focus_active_color);
 }
 
 /* текст 1 блоку */
@@ -1224,7 +1364,7 @@ u, u:hover, u:focus, u:active {
 
 .about_me_img{
     max-width: 430px;
-    background-color: #04112B;
+    background-color: var(--about_me_img_background_color);
     border-radius: 15px;
 }
 
@@ -1306,7 +1446,7 @@ u, u:hover, u:focus, u:active {
 /* ================================================================== */
 body {
     margin: 0;
-    background-color: #04112B;
+    background-color: var(--body_background_color);
 }
 
 /* НАВБАР */
@@ -1315,7 +1455,7 @@ nav {
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: #04112B;
+    background-color: var(--nav_background_color);
 }
 
 .nav-list button {
@@ -1329,9 +1469,9 @@ nav {
 
 .nav-letters-mode {
     gap: 8px;
-    background-color: #1D4289;
+    background-color: var(--nav-letters_mode_background_color);
     border: none;
-    color: white;
+    color: var(--nav-letters_mode_color);
     font-size: 16px;
     cursor: pointer;
     border-radius: 15px;
@@ -1342,12 +1482,12 @@ nav {
 }
 
 .nav-letters-mode:hover {
-    background-color: #031c4f;
+    background-color: var(--nav-letters-mode_hover_background_color);
 }
 
 nav button {
-    background-color: #333;
-    color: white;
+    background-color: var(--nav_button_background_color);
+    color: var(--nav_button_color);
     border-radius: 15px;
     border: none;
     height: 50px;
@@ -1360,41 +1500,41 @@ nav button {
 
 nav button a {
     text-decoration: none;
-    color: white;
+    color: var(--nav_button_a_color);
 }
 
 .nav-theme {
-    background-color: #1D4289;
+    background-color: var(--nav-theme_background_color);
     height: 50px;
     max-width: 155px;
     margin-left: 130px;
 }
 
 .nav-theme:hover {
-    background-color: #031c4f;
+    background-color: var(--nav-theme_hover_background_color);
 }
 
 .nav2_r:hover {
-    background-color: #555;
+    background-color: var(--nav2_r_hover_background_color);
 }
 
 .nav2_l {
-    background-color: #333;
+    background-color: var(--nav2_l_background_color);
 }
 
 .nav2_l:hover {
-    background-color: #555;
+    background-color: var(--nav2_l_hover_background_color);
 }
 
 .nav-button {
-    background-color: #1D4289;
+    background-color: var(--nav_button_background_color);
     width: 120px;
     height: 50px;
     border-radius: 15px;
 }
 
 .nav-button:hover {
-    background-color: #031c4f;
+    background-color: var(--nav_button_hover_background_color);
     transition-timing-function: cubic-bezier(0.7, 0, 0.2, 1);
 }
 
@@ -1404,15 +1544,15 @@ nav button a {
 }
 
 .nav2_c:hover {
-    background-color: #555;
+    background-color: var(--nav2_c_hover_background_color);
 }
 
 .title-nav {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background-color: #1D4289;
-    color: white;
+    background-color: var(--title_nav_background_color);
+    color: var(--title_nav_color);
 }
 
 .nav-logo {
@@ -1448,7 +1588,7 @@ nav button a {
     font-size: 28px;
     background: none;
     border: none;
-    color: #fff;
+    color: var(--burger_icon_color);
     cursor: pointer;
     position: absolute;
     top: 60px;
@@ -1466,7 +1606,7 @@ nav button a {
     right: -115%;
     width: 100%;
     height: 100%;
-    background-color: #04112B;
+    background-color: var(--modal_background_color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1505,7 +1645,7 @@ nav button a {
 }
 
 .nav-button a {
-    color: white;
+    color: var(--nav_button_a_color);
     text-decoration: none;
     font-size: 18px;
 }
@@ -1521,7 +1661,7 @@ nav button a {
 }
 
 .nav-button {
-    background-color: #1D4289;
+    background-color: var(--nav_button_background_color);
     width: 125px;
     height: 50px;
     border-radius: 10px;
@@ -1540,12 +1680,12 @@ nav button a {
 
 .burger-icon span {
     height: 5px;
-    background-color: #333;
+    background-color: var(--burger_icon_span_background_color);
     border-radius: 5px;
 }
  
 .modal-nav-theme{
-    background-color: #1D4289;
+    background-color: var(--modal_nav_theme_background_color);
     height: 50px;
     max-width: 155px;
 }
@@ -1554,9 +1694,9 @@ nav button a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1D4289;
+    background-color: var(--modal_nav_letters_mode_background_color);
     border: none;
-    color: white;
+    color: var(--modal_nav_letters_mode_color);
     font-size: 16px;
     cursor: pointer;
     border-radius: 10px;
@@ -1566,8 +1706,8 @@ nav button a {
 
 /* ФУТЕР */
 footer {
-    background-color: #04112B;
-    color: #ffffff;
+    background-color: var(--footer_background_color);
+    color: var(--footer_color);
     padding: 20px 0;
     font-family: Arial, sans-serif;
     margin-top: 20px;
@@ -1632,19 +1772,19 @@ footer {
 
 .footer-section2 ul li a, 
 .footer-section3 ul li a {
-    color: #bbbbbb;
+    color: var(--footer_section2_3_ul_li_a_color);
     text-decoration: none;
     transition: 0.3s;
 }
 
 .footer-section2,
 .footer-section3 {
-    background-color: #1D4289;
+    background-color: var(--footer_section2_3_background_color);
 }
 
 .footer-section2 ul li a:hover, 
 .footer-section3 ul li a:hover {
-    color: #ffffff;
+    color: var(--footer_section2_3_ul_li_a_hover_color);
      text-decoration: underline;
 }
 
@@ -1653,7 +1793,7 @@ footer {
 }
 
 .footer-section4 a {
-    color: white;
+    color: var(--footer_section4_a_color);
     text-decoration: none;
     font-weight: bold;
 }
@@ -1669,8 +1809,8 @@ footer {
 .discord-button {
     display: flex;
     align-items: center;
-    background-color: #1D4289;
-    color: white;
+    background-color: var(--discord_button_background_color);
+    color: var(--discord_button_color);
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -1690,17 +1830,17 @@ footer {
     margin-bottom: -20px;
     padding: 15px;
     margin-top: -30px;
-    background-color: #1D4289;
+    background-color: var(--copywrite_background_color);
     font-size: 15px;
 }
 
 #copywrite a {
-    color: #bbb;
+    color: var(--copywrite_a_color);
     text-decoration: none;
 }
 
 #copywrite a:hover {
-    color: white;
+    color: var(--copywrite_a_hover_color);
     text-decoration: underline;
 }
 
@@ -1797,33 +1937,28 @@ footer {
 }
 
 .lines_404 {
-  background: linear-gradient(
-    90deg,
-    #1d4289 0%,
-    #a9071f 50%,
-    #1d4289 100%
-  );
-  color: black;
-  width: 100%;
-  justify-content: center;
-  display: flex;
+    background: linear-gradient(90deg, var(--lines_404_background_1) 0%, var(--lines_404_background_2) 50%, var(--lines_404_background_3) 100%);
+    color: var(--lines_404_color);
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .article_text_404 {
-  font-family: Calibri, sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
-  letter-spacing: 0%;
-  line-height: 60px;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-  color: white;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  text-align: center;
+    color: var(--article_text_404_color);
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -1836,60 +1971,60 @@ footer {
 }
 
 .article_lines {
-  background: linear-gradient(90deg,#1D4289 50%, #A9071F 100%);
-  color: black;
-  width: 100%;
-  justify-content: center;
-  display: flex;
+    background: linear-gradient(90deg, var(--article_lines_background_1) 50%, var(--article_lines_background_2) 100%);
+    color: var(--article_lines_color);
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .article_text_mapa {
-  font-family: Calibri, sans-serif;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 32px;
-  letter-spacing: 0%;
-  line-height: 60px;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-  color: white;
-  display: flex;
-  align-items: center; 
-  justify-content: center;
-  text-align: center;
+    color: var(--article_text_mapa_color);
+    font-family: Calibri, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
 }
 
 .site_map {
-  background-color: #1a3872;
-  padding: 30px; 
-  border-radius: 10px;
-  margin: 50px auto;
-  width: 50%;
+    background-color: var(--site_map_background_color);
+    padding: 30px; 
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 50%;
 }
 
 .site_map h2 {
-  text-align: center;
-  color: #ecf0f1;
-  font-size: 1.5rem;
-  margin-bottom: 20px;
+    text-align: center;
+    color: var(--site_map_h2_color);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .site_map h3 {
-  text-align: center;
-  color: #ecf0f1;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+    text-align: center;
+    color: var(--site_map_h3_color);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 .site_map p {
-  line-height: 1.6;
-  color: #ecf0f1;
-  text-align: left;
-  margin: 0;
+    line-height: 1.6;
+    color: var(--site_map_p_color);
+    text-align: left;
+    margin: 0;
 }
 
 .site_map p br {
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
