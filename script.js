@@ -37,3 +37,42 @@ setInterval(changeQuote, 10000);
 
 
 quoteElement.textContent = quotes[currentQuoteIndex];
+
+
+
+
+
+// Я ТУТ ЗВАРГАНИВ ШВИДКИЙ КОД - МАЄ ПРАЦЮВАТИ, ЦЕ ПРОСТО ЩОБ ЗРУЧНІШЕ БУЛО З ROOT ПРАЦЮВАТИ.
+// ЯКЩО ТРЕБА - ПЕРЕРОБИШ ЯК ТРЕБА
+
+// доступ до можливості зміни
+const themeButton = document.querySelector('.nav-theme');
+const modalThemeButton = document.querySelector('.modal-nav-theme');
+const body = document.body; // доступ до body
+
+// Функція перемикання
+function toggleTheme() {
+    if (body.classList.contains('light-theme')) {
+        body.classList.remove('light-theme');
+        themeButton.textContent = 'СВІТЛА ТЕМА';
+        modalThemeButton.textContent = 'СВІТЛА ТЕМА';
+        localStorage.setItem('theme', 'dark'); // збереження теми
+    } else {
+        body.classList.add('light-theme');
+        themeButton.textContent = 'ТЕМНА ТЕМА';
+        modalThemeButton.textContent = 'ТЕМНА ТЕМА';
+        localStorage.setItem('theme', 'light'); // збереження теми
+    }
+}
+
+// Обробка натискання
+themeButton.addEventListener('click', toggleTheme);
+modalThemeButton.addEventListener('click', toggleTheme);
+
+// Зберігання при переході
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'light') {
+    body.classList.add('light-theme');
+    themeButton.textContent = 'ТЕМНА ТЕМА';
+    modalThemeButton.textContent = 'ТЕМНА ТЕМА';
+}

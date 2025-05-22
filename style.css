@@ -163,11 +163,11 @@
 
 .light-theme {
     /*новини*/
-    --news_scroll_color: ;
-    --news_item_background_color: ;
-    --read_more_background_color: ;
-    --read_more__color: ;
-    --read_more_hover_background_color: ;
+    --news_scroll_color: black;
+    --news_item_background_color: #C1D7FF;
+    --read_more_background_color: #D64F49;
+    --read_more__color: black;
+    --read_more_hover_background_color: #C1D7FF;
     /*------*/
 
     /*СТОРІНКА ВЛАДА*/
@@ -289,21 +289,21 @@
     --copywrite_a_hover_color: ;
 
     /*404*/
-    --lines_404_background_1: ;
-    --lines_404_background_2: ;
-    --lines_404_background_3: ;
-    --lines_404_color: ;
-    --article_text_404_color: ;
+    --lines_404_background_1: #C1D7FF;
+    --lines_404_background_2: #CE5569;
+    --lines_404_background_3: #C1D7FF;
+    --lines_404_color: white;
+    --article_text_404_color: black;
 
     /*мапа*/
-    --article_lines_background_1: ;
-    --article_lines_background_2: ;
-    --article_lines_color: ;
-    --article_text_mapa_color: ;
-    --site_map_background_color: ;
-    --site_map_h2_color: ;
-    --site_map_h3_color: ;
-    --site_map_p_color: ;
+    --article_lines_background_1: #5D87D4;
+    --article_lines_background_2: #C1D7FF;
+    --article_lines_color: black;
+    --article_text_mapa_color: black;
+    --site_map_background_color: #C1D7FF;
+    --site_map_h2_color: #000000;
+    --site_map_h3_color: #000000;
+    --site_map_p_color: #000000;
 }
 
 /* ================================================================== */
@@ -1971,7 +1971,7 @@ footer {
 }
 
 .article_lines {
-    background: linear-gradient(90deg, var(--article_lines_background_1) 50%, var(--article_lines_background_2) 100%);
+    background: linear-gradient(90deg, var(--article_lines_background_1) 0%, var(--article_lines_background_2) 50%, var(--article_lines_background_1) 100%);
     color: var(--article_lines_color);
     width: 100%;
     justify-content: center;
