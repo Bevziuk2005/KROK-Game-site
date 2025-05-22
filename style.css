@@ -173,87 +173,86 @@
     /*СТОРІНКА ВЛАДА*/
 
     /*команди*/
-    --comands_title_container_1_background: ;
-    --comands_title_container_2_background: ;
-    --comands_title_container_3_background: ;
-    --comands_title_container_color: ;
-    --comand_container_background_color: ;
-    --comand_container_color: ;
-    --comand_button_background_color: ;
+    --comands_title_container_1_background: #C1D7FF;
+    --comands_title_container_2_background: #C95140;
+    --comands_title_container_color: black;
+    --comand_container_background_color: #C1D7FF;
+    --comand_container_color: black;
+    --comand_button_background_color: #D64F49;
     --comand_button_hover_background_color: ;
-    --comand_button_a: ;
+    --comand_button_a: black;
     /*------*/
-    --comand_background_color: ;
-    --comand_color: ;
-    --comands_color: ;
-    --zayavka_button_background_color: ;
-    --zayavka_button_color: ;
-    --zayavka_button_hover_background_color: ;
+    --comand_background_color: #C1D7FF;
+    --comands_color: black;
+    --zayavka_button_background_color: #D64F49;
+    --zayavka_button_color: black;
+    --zayavka_button_hover_background_color: #C1D7FF;
 
     /*турніри*/
-    --tournaments_foto_logo_h2_color: ;
-    --tournaments_foto_logo_h2_background_1: ;
-    --tournaments_foto_logo_h2_background_2: ;
-    --tournaments_foto_logo_h2_background_3: ;
-    --tournaments_date_color: ;
-    --tournaments_event_background_color: ;
-    --tournaments_event_text_color: ;
-    --tournaments_learn_more_background_color: ;
-    --tournaments_learn_more_hover_background_color: ;
+    --tournaments_foto_logo_h2_color: black;
+    --tournaments_foto_logo_h2_background_1: #5D87D4;
+    --tournaments_foto_logo_h2_background_2: #C1D7FF;
+    --tournaments_foto_logo_h2_background_3: #5D87D4;
+    --tournaments_date_color: black;
+    --tournaments_event_background_color: #C1D7FF;
+    --tournaments_event_text_color: black;
+    --tournaments_learn_more_background_color: #D64F49;
+    --tournaments_learn_more_hover_background_color: #C1D7FF;
     /*------*/
-    --tournaments_dota2_2024_about_background_color: ; 
-    --tournaments_dota2_2024_about_color: ;
-    --tournaments_back_background_color: ;
-    --tournaments_back_hover_background_color: ;
-    --tournaments_dota2_2024_button_text_a: ;
-    --tournaments_2024_dota2_order_background_color: ;
-    --tournaments_2024_dota2_order_color: ;
-    --tournaments_2024_dota2_end_background_color: ;
-    --tournaments_2024_dota2_end_color: ;
-    --tournaments_2024_dota2_end_and_order_hover: ;
-    --tournaments_dota2_2024_map_background_color: ;
-    --tournaments_dota2_2024_map_color: ;
-    --tournaments_2024_dota2_map_source_background_color: ;
-    --tournaments_2024_dota2_map_source_color: ;
-    --tournaments_2024_dota2_map_source_hover_background_color: ;
-    --tournaments_2024_dota2_map_source_a: ;
-    --tournaments_dota2_2024_prize_section_background_color: ;
-    --tournaments_dota2_2024_prize_section_h2: ;
-    --tournaments_dota2_2024_prize_left_right_img: ;
-    --tournaments_dota2_2024_prize_left_right_p: ;
+    --tournaments_dota2_2024_about_background_color: #C1D7FF; 
+    --tournaments_dota2_2024_about_color: black;
+    --tournaments_back_background_color: #D64F49;
+    --tournaments_back_hover_background_color: #5D87D4;
+    --tournaments_dota2_2024_button_text_a: black;
+    --tournaments_2024_dota2_order_background_color: #D64F49;
+    --tournaments_2024_dota2_order_color: black;
+    --tournaments_2024_dota2_end_background_color: #D64F49;
+    --tournaments_2024_dota2_end_color: black;
+    --tournaments_2024_dota2_end_and_order_hover: #C1D7FF;
+    --tournaments_dota2_2024_map_background_color: #C1D7FF;
+    --tournaments_dota2_2024_map_color: black;
+    --tournaments_2024_dota2_map_source_background_color: #D64F49;
+    --tournaments_2024_dota2_map_source_color: black;
+    --tournaments_2024_dota2_map_source_hover_background_color: #C1D7FF;
+    --tournaments_2024_dota2_map_source_a: black;
+    --tournaments_dota2_2024_prize_section_background_color: #C1D7FF;
+    --tournaments_dota2_2024_prize_section_h2: black;
+    --tournaments_dota2_2024_prize_left_right_img: #5D87D4;
+    --tournaments_dota2_2024_prize_left_right_p: black;
 
     /*головна*/
-    --news_title_container_background_color: ;
-    --news_title_container_color: ;
-    --news_text_container_second_background_color: ;
-    --news_text_container_second_color: ;
-    --stats_section_background_color: ;
-    --stats_color: ;
-    --comands_title_background_color: ;
-    --comands_title_color: ;
-    --command_button_background_color: ;
-    --command_button_color: ;
+    --news_title_container_background_color: #5D87D4B2;
+    --news_title_container_color: black;
+    --news_text_container_second_background_color: #5D87D4B2;
+    --news_text_container_second_color: black;
+    --stats_section_background_color: #5D87D4;
+    --stats_color: black;
+    --comands_title_background_color: #C1D7FF;
+    --comands_title_color: black;
+    --command_button_background_color: #D64F49;
+    --command_button_color: black;
 
     /*про нас*/
-    --about_article_lines_background_1: ;
-    --about_article_lines_background_2: ;
-    --about_article_lines_background_3: ;
-    --about_article_lines_color: ;
-    --about_logo_text_color: ;
-    --about_part_1_and_2_background_color: ;
-    --about_part_1_and_2_color: ;
-    --about_part_3_background_color: ;
-    --about_part_3_color: ;
-    --u_hover_focus_active_color: ;
-    --about_me_img_background_color: ;
+    --about_article_lines_background_1: #5D87D4;
+    --about_article_lines_background_2: #C1D7FF;
+    --about_article_lines_background_3: #5D87D4;
+    --about_article_lines_color: black;
+    --about_logo_text_color: black;
+    --about_part_1_and_2_background_color: #C1D7FF;
+    --about_part_1_and_2_color: black;
+    --about_part_3_background_color: #C1D7FF;
+    --about_part_3_color: black;
+    --u_hover_focus_active_color: black;
+    --about_me_img_background_color: #5D87D4;
 
     /*navbar & footer*/
-    --body_background_color: #C1D7FF;
+    --body_background_color: #5D87D4;
+    /*------*/
     --nav_background_color: #5D87D4;
     --nav-letters_mode_background_color: #C1D7FF;
     --nav-letters_mode_color: black;
     --nav-letters-mode_hover_background_color: #CE5569; 
-    --nav_button_background_color: #C1D7FF;
+    --nav_button_background_color: #C1D7FF !important;
     --nav_button_color: black;
     --nav_button_a_color: black;
     --nav-theme_background_color: #C1D7FF;
@@ -400,7 +399,7 @@
 /* -------------------- СТОРІНКА: СПИСОК КОМАНД --------------------- */
 .comands-title-container{
     position: absolute;
-    background: linear-gradient(90deg, var(--comands_title_container_1_background) 0%, var(--comands_title_container_2_background) 50%, var(--comands_title_container_3_background) 100%);
+    background: linear-gradient(90deg, var(--comands_title_container_1_background) 0%, var(--comands_title_container_2_background) 100%);
     color: var(--comands_title_container_color);
     width: 100%;
     justify-content: center;
