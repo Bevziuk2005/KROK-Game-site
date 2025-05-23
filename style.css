@@ -267,12 +267,12 @@
     --title_nav_color: black;
     /*------*/
     --burger_icon_color: ;
-    --modal_background_color: ;
+    --modal_background_color: #5D87D4;
     --nav_button_a_color: ;
     --nav_button_background_color: ;
     --burger_icon_span_background_color: ;
-    --modal_nav_theme_background_color: ;
-    --modal_nav_letters_mode_background_color: ;
+    --modal_nav_theme_background_color: #C1D7FF;
+    --modal_nav_letters_mode_background_color: #C1D7FF;
     --modal_nav_letters_mode_color: ;
     /*------*/
     --footer_background_color: #5D87D4;
