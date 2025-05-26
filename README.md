@@ -75,8 +75,13 @@
 </details>
 
 <details>
-  <summary>19 - 25 травня ⏳</summary>
+  <summary>19 - 25 травня ✅</summary>
   Останні терміни по розробці CSS, а також злиття маленьких файлів в основний. Документування усього проведеного тестування
+</details>
+
+<details>
+  <summary>26 травня - 1 червня ⏳</summary>
+  Завершення останньої сторінки, пошук і вирішення невідповідностей. Здача проєкту стейкхолдерам на перевірку.
 </details>
 
 ---
@@ -110,20 +115,20 @@
 
 ---
 
-### 2. **CSS**
+### 2. **CSS**✅
 
 <details>
   <summary><b>Коляденко</b></summary>
 
-- navbar & footer ✅
+- navbar & footer 
 - news1.html 
-- tournaments.html ✅
-- news_and_events.html ✅
+- tournaments.html 
+- news_and_events.html 
 
 </details>
 
 <details>
-  <summary><b>Семенюк ✅</b></summary>
+  <summary><b>Семенюк </b></summary>
 
 - index.html 
 - comands.html 
@@ -132,7 +137,7 @@
 </details>
 
 <details>
-  <summary><b>Бевзюк ✅</b></summary>
+  <summary><b>Бевзюк </b></summary>
 
 - about.html 
 - tournaments_dota2_2024.html
@@ -140,7 +145,7 @@
 </details>
 
 <details>
-  <summary><b>Чернявський ✅</b></summary>
+  <summary><b>Чернявський </b></summary>
 
 - 404.html
 - site_map.html 
@@ -189,6 +194,10 @@
 </details>
 <details>
   <summary>📝 Use case</summary>
+  Додати після здачі
+</details>
+<details>
+  <summary>📝 Тестування сайту</summary>
   Додати після здачі
 </details>
 ---
