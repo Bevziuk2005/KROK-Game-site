@@ -1490,24 +1490,6 @@ nav {
     font-weight: 600;
 }
 
-.nav-letters-mode {
-    gap: 8px;
-    background-color: var(--nav-letters_mode_background_color);
-    border: none;
-    color: var(--nav-letters_mode_color);
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 15px;
-    transition: background-color 0.3s ease;
-    margin-bottom: 40px;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-.nav-letters-mode:hover {
-    background-color: var(--nav-letters-mode_hover_background_color);
-}
-
 nav button {
     background-color: var(--nav_button_background_color);
     color: var(--nav_button_color);
@@ -1713,19 +1695,6 @@ nav button a {
     max-width: 155px;
 }
 
-.modal-nav-letters-mode{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--modal_nav_letters_mode_background_color);
-    border: none;
-    color: var(--modal_nav_letters_mode_color);
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
-    margin-bottom: 10px;
-}
 
 /* ФУТЕР */
 footer {
