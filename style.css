@@ -1142,11 +1142,18 @@ a.tournaments_back > img {
 /* ================================================================== */
 /* НОВИНА */
 .news-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
+    border-radius: 20px;
+    background-color: var(--new_news_container_background_color);
+    padding-bottom: 15px;
+    max-height: 1300px;
+    max-width: 1000px;
+    
     margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .news-title-container{
