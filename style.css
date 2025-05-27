@@ -25,9 +25,18 @@
     --read_more__color: white;
     --read_more_hover_background_color: #ff7300;
     /*------*/
-
-    /*СТОРІНКА ВЛАДА*/
-
+    --new_read_more_details_background_color: #D64F49;
+    --new_read_more_details_color: white;
+    --new_title_news_color: white;
+    --new_title_news_background_1: #1D4289;
+    --new_title_news_background_2: red;
+    --new_news_container_background_color: #1D4289;
+    --new_news_container_p_color: white;
+    --new_news_author_title_date_color: white;
+    --news_back_to_feed_background-color: #bb4e01;
+    --news_back_to_feed_color: white;
+    --news_back_to_feed_hover_background-color: #ff7300;
+    
     /*команди*/
     --comands_title_container_1_background: #1D4289;
     --comands_title_container_2_background: #EB5933;
@@ -169,8 +178,17 @@
     --read_more__color: black;
     --read_more_hover_background_color: #C1D7FF;
     /*------*/
-
-    /*СТОРІНКА ВЛАДА*/
+    --new_read_more_details_background_color: #D64F49;
+    --new_read_more_details_color: black;
+    --new_title_news_color: white;
+    --new_title_news_background_1: #C1D7FF;
+    --new_title_news_background_2: #EC3745;
+    --new_news_container_background_color: #C1D7FF;
+    --new_news_container_p_color: black;
+    --new_news_author_title_date_color: black;
+    --news_back_to_feed_background-color: #D64F49;
+    --news_back_to_feed_color: white;
+    --news_back_to_feed_hover_background-color: #5D87D4;
 
     /*команди*/
     --comands_title_container_1_background: #C1D7FF;
@@ -388,7 +406,6 @@
 
 
 /* -------------------- СТОРІНКА: НОВИНА ---------------------------- */
-
 .news_detail_img{
     width: 95%;
     margin-top: 60px;
@@ -403,25 +420,78 @@
 
 .read_more_details{
     font-family: Calibri, sans-serif;
-  background-color: var(--read_more_background_color);
-  color: var(--read_more__color);
-  text-decoration: none;
-  border: none;
-  border-radius: 10px;
-  
-  margin: 0 auto;
+    background-color: var(--new_read_more_details_background_color);
+    color: var(--new_read_more_details_color);
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    
+    margin: 0 auto;
 
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  transition: transform 0.3s;
-  display: flex;
-  align-items: center;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
 
 }
-/* остання сторінка Влада */
 
+.title-news {
+    color: var(--new_title_news_color);
+    text-align: center;
+    background: linear-gradient(to right, var(--new_title_news_background_1), var(--new_title_news_background_2));
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.title-news h3 {
+    font-size: 150%;
+}
+
+.news-container {
+    border-radius: 20px;
+    background-color: var(--new_news_container_background_color);
+    padding-bottom: 15px;
+    max-height: 1300px;
+    max-width: 1000px;
+    margin-top: 10px;
+}
+
+.news-container p {
+    color: var(--new_news_container_p_color);
+    width: 95%;
+}
+
+.news_author, 
+.news_title,
+.news_date {
+    color: var(--new_news_author_title_date_color);
+}
+
+.news_date {
+    font-weight: 200;
+}
+
+.back_to_feed {
+  margin-right: auto;
+  margin-left: 25px;
+  background-color: var(--news_back_to_feed_background-color);
+  color: var(--news_back_to_feed_color);
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: -48px;
+  padding: 0.3rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back_to_feed:hover {
+    background-color: var(--news_back_to_feed_hover_background-color);
+}
 
 
 /* ================================================================== */
