@@ -389,8 +389,37 @@
 
 /* -------------------- СТОРІНКА: НОВИНА ---------------------------- */
 
+.news_detail_img{
+    width: 95%;
+    margin-top: 60px;
+}
 
+.news_author{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+}
 
+.read_more_details{
+    font-family: Calibri, sans-serif;
+  background-color: var(--read_more_background_color);
+  color: var(--read_more__color);
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  
+  margin: 0 auto;
+
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+
+}
 /* остання сторінка Влада */
 
 
@@ -1087,7 +1116,7 @@ a.tournaments_back > img {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
     margin: 0;
     padding: 0;
     color: var(--stats_color);

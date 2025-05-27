@@ -11,18 +11,17 @@
 }
 
 .news-container {
-  border-radius: 20px;
-  background-color: #1D4289;
-  padding-bottom: 15px;
-  max-height: 1300px;
-  max-width: 1000px;
-  margin-top: 10px;
+    border-radius: 20px;
+    background-color: #1D4289;
+    padding-bottom: 15px;
+    max-height: 1300px;
+    max-width: 1000px;
+    margin-top: 10px;
 }
 
 .news-container p {
     color: white;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 95%;
 }
 
 .news_author, 
@@ -32,7 +31,7 @@
 }
 
 .news_date {
-    margin-left: 400px;
+
     font-weight: 200;
 }
 
