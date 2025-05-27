@@ -450,12 +450,11 @@
     font-size: 150%;
 }
 
-.news-container {
+.index-img-container {
     border-radius: 20px;
-    background-color: var(--new_news_container_background_color);
+    
     padding-bottom: 15px;
     max-height: 1300px;
-    max-width: 1000px;
     margin-top: 10px;
 }
 
@@ -1167,12 +1166,14 @@ a.tournaments_back > img {
 }
 
 .news-text-container-second{
+    position: absolute;
     margin-top: -70px;
-    background-color: var(--news_text_container_second_background_color);
-    color: var(--news_text_container_second_color);
+    background-color: var(--news_title_container_background_color);
+    color: var(--news_title_container_color);
     width: 100%;
     justify-content: center;
     display: flex;
+    text-align: center;
 }
 
 /* СТАТИСТИКА */
@@ -1582,6 +1583,7 @@ nav {
 
 .nav-list button {
       border-radius: 15px;
+      font-weight: 700;
 }
 
 .nav-list a,
