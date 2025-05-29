@@ -431,11 +431,14 @@
     padding: 0.75rem 2rem;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s;
-    transition: transform 0.3s;
+
     display: flex;
     align-items: center;
 
+}
+.read_more_details:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
 }
 
 .title-news {
@@ -621,7 +624,7 @@
   border-radius: 35px;
   color: var(--comand_color);
   font-family: Calibri, sans-serif;
-  min-height: 100vh;
+
 }
 
 .team_background {
@@ -638,8 +641,9 @@
 }
 
 .player_comands {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   width: 100%;
   max-width: 1000px;
@@ -764,7 +768,7 @@
 
 .tournaments_learn_more > a {
     font-weight: 700;
-    color: var(--tournaments_learn_more_a);
+    color: var(--site_map_h2_color);
 
 }
 
@@ -2071,8 +2075,8 @@ footer {
 }
 
 .article_lines {
-    background: linear-gradient(90deg, var(--article_lines_background_1) 0%, var(--article_lines_background_2) 50%, var(--article_lines_background_1) 100%);
-    color: var(--article_lines_color);
+    background: linear-gradient(90deg, var(--article_lines_background_1) 30%, var(--article_lines_background_2) 100%);
+    color: var(--site_map_h2_color);
     width: 100%;
     height: 60px;
 
