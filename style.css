@@ -2047,11 +2047,15 @@ footer {
 /*                           СТОРІНКА: 404                            */
 /* ================================================================== */
 .error_page {
-    background-image: url('Images/404c.webp');
-    background-size: cover; /* Зображення покриває весь екран */
-    background-position: center;
-    padding-left: -320px; 
+    background-image: url('Images/404.png');
+    background-size: cover; 
+    background-position: center 80px;
     box-sizing: border-box;
+    background-repeat: no-repeat;
+    height: 1400px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .lines_404 {
