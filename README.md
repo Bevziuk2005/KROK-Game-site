@@ -80,7 +80,7 @@
 </details>
 
 <details>
-  <summary>26 травня - 1 червня ⏳</summary>
+  <summary>26 травня - 1 червня ✅</summary>
   Завершення останньої сторінки, пошук і вирішення невідповідностей. Здача проєкту стейкхолдерам на перевірку.
 </details>
 
@@ -170,7 +170,7 @@
 - comands_cs2.html ✅
 - 404.html ✅
 - site_map.html ✅
-- news1.html ❌
+- news1.html ✅
 - news_and_events.html ✅
 
 </details>
